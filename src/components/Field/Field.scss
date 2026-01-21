@@ -1,0 +1,45 @@
+.field {
+  display: grid;
+
+  &__label {
+    display: none;
+  }
+
+  &__body {
+    display: flex;
+    align-items: center;
+    column-gap: fluid-to-laptop(16, 12);
+    width: 100%;
+  }
+
+  &__control {
+    width: 100%;
+    height: 52px;
+    padding: 16px;
+    color: var(--color-black);
+    background-color: var(--color-white);
+    border: 1px solid transparent;
+    border-radius: var(--border-radius-m);
+
+    @include hover {
+      border-color: var(--color-red-1);
+    }
+
+    &:user-invalid {
+      border-color: var(--color-red-3);
+    }
+
+    &:disabled {
+      @include disabled;
+    }
+
+    &::placeholder {
+      color: var(--color-black-80);
+    }
+  }
+
+  textarea.field__control {
+    resize: vertical;
+    min-height: 107px;
+  }
+}

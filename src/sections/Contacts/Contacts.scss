@@ -1,0 +1,141 @@
+.contacts {
+  background-color: var(--color-gray-1);
+
+  &__inner {
+    padding-block: fluid(100, 60);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "address form";
+    gap: 20px;
+
+    @include mobile {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+
+  &__form-block {
+    grid-area: form;
+    max-width: 529px;
+
+    @include mobile {
+      max-width: initial;
+    }
+
+    &,
+    form {
+      display: flex;
+      flex-direction: column;
+      row-gap: 20px;
+    }
+
+    .form__cell--actions {
+      display: flex;
+      flex-direction: column;
+      row-gap: fluid(28, 16);
+    }
+  }
+
+  &__address {
+    grid-area: address;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: fluid(20, 16);
+
+    &-main {
+      display: flex;
+      flex-direction: column;
+      row-gap: fluid(34, 20);
+      column-gap: fluid(20, 8);
+    }
+  }
+
+  &__email {
+    border: none;
+    background: none;
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+    transition-duration: var(--transition-duration-longer);
+
+    &.is-copied {
+      color: #2e7d32;
+    }
+
+    &:hover {
+      color: var(--color-red-1)
+    }
+  }
+
+  &__phone {
+    width: fit-content;
+  }
+
+  &__soc1als {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+    &-link {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      width: fit-content;
+      font-weight: 400;
+      cursor: pointer;
+
+      @include hover {
+        .icon {
+          scale: 1.1;
+        }
+      }
+
+      &--tg {
+        .icon {
+          background-color: #178EC9;
+        }
+      }
+
+      &--wts {
+        .icon {
+          background-color: #0CC042;
+        }
+      }
+
+      &--vk {
+        .icon {
+          background-color: #07F;
+        }
+      }
+
+      &--ytb {
+        .icon {
+          background-color: #E3000F;
+        }
+      }
+    }
+
+    .icon {
+      width: fluid(28, 24);
+      height: fluid(28, 24);
+      flex: 0 0 fluid(28, 24);
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition-duration: var(--transition-duration-longer);
+
+      svg {
+        color: #fff;
+        width: 18px;
+        height: 18px;
+        stroke-width: 2px;
+      }
+    }
+
+    &-label {
+      padding-top: fluid(4, 2);
+    }
+  }
+}

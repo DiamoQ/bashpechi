@@ -1,0 +1,48 @@
+.news {
+  overflow-x: hidden;
+
+  @include mobile {
+    padding-right: 0;
+  }
+
+  .section__header {
+    @include mobile {
+      padding-right: 16px;
+    }
+  }
+
+  .section__body {
+    @include mobile {
+      overflow-x: hidden;
+    }
+  }
+
+  &__list {
+    display: grid;
+    column-gap: fluid(20, 12);
+    row-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+
+    @include tablet {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include mobile {
+      padding-right: 16px;
+      padding-bottom: 30px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      overflow-x: scroll;
+      scrollbar-gutter: stable;
+      -webkit-overflow-scrolling: touch;
+      touch-action: pan-x;
+      scrollbar-color: var(--color-red-1) transparent;
+    }
+  }
+
+  .more-button {
+    margin-top: 20px;
+    width: calc(100% - 16px);
+  }
+}

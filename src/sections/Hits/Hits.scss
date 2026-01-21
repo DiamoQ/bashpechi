@@ -1,0 +1,14 @@
+.hits {
+  width: 100%;
+
+  .section__body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 44px;
+    padding-bottom: fluid(40, 0);
+  }
+
+  .slider__list {
+    padding-block: 10px;
+  }
+}

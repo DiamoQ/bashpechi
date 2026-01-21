@@ -1,0 +1,1 @@
+export default { base: 'https://github.com/DiamoQ/bashpechi.git'}

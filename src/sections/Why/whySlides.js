@@ -1,0 +1,21 @@
+const slideBanner = `src/assets/images/why/whywe.png`;
+
+const whySlides = [
+    {
+        title: "Объемная крышка и жаровня",
+        text: "Большая площадь жаровни- возможность одновременно готовить несколько блюд",
+        image: slideBanner,
+    },
+    {
+        title: "Объемная жаровня",
+        text: "Большая площадь жаровни- возможность одновременно готовить несколько блюд",
+        image: slideBanner,
+    },
+    {
+        title: "Объемная крышка",
+        text: "Большая площадь жаровни- возможность одновременно готовить несколько блюд",
+        image: slideBanner,
+    },
+]
+
+export default whySlides;

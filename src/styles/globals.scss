@@ -1,0 +1,131 @@
+html {
+    &.is-lock {
+        overflow: hidden;
+    }
+}
+
+body {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family-face);
+    color: var(--color-black);
+    background-color: var(--color-white);
+    line-height: 125%;
+    overflow-x: hidden;
+}
+
+main {
+    flex-grow: 1;
+}
+
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+    font-family: var(--font-secondary-face);
+    color: var(--color-black);
+    line-height: 100%;
+}
+
+h1, .h1 {
+    @include fluid-text(52, 28);
+
+    font-weight: 700;
+}
+
+h2, .h2 {
+    @include fluid-text(46, 20);
+
+    font-weight: 700;
+}
+
+h3, .h3 {
+    @include fluid-text(36, 16);
+
+    font-weight: 700;
+}
+
+h4, .h4 {
+    @include fluid-text(20, 16);
+
+    font-weight: 400;
+}
+
+h5, .h5 {
+    @include fluid-text(18, 14);
+
+    font-weight: 400;
+}
+
+h6, .h6 {
+    @include fluid-text(16, 14);
+
+    font-weight: 400;
+}
+
+a, 
+button,
+label,
+input,
+textarea,
+select,
+svg {
+    transition-duration: var(--transition-duration);
+}
+
+a {
+    color: inherit;
+    transition-duration: var(--transition-duration-longer);
+
+    @include hover {
+        color: var(--color-red-2);
+    }
+
+    &:active {
+        color: var(--color-red-1);
+        scale: 1.05;
+    }
+
+    &[class] {
+        text-decoration: none;
+    }
+}
+
+svg {
+    width: 100%;
+    height: 100%
+}
+
+.accent {
+    color: var(--color-red-1);
+}
+
+input, textarea, [contenteditable="true"] {
+    caret-color: var(--color-red-1);
+}
+
+:focus-visible {
+    @include focus-visible;
+}
+
+:has(.swiper) {
+    min-width: 0;
+}
+
+.swiper {
+    width: 100%;
+
+    .swiper-slide {
+        height: auto;
+    }
+}
+
+.slider-outside-arrows {
+    .slider-inner {
+        position: relative;
+        display: block;
+    }
+}

@@ -1,0 +1,32 @@
+.reviews {
+  @include mobile {
+    padding-right: 0;
+  }
+
+  .section__header {
+    @include mobile {
+      padding-right: 16px;
+      max-width: 100%;
+    }
+  }
+
+  .section__body {
+    display: flex;
+    flex-direction: column;
+    row-gap: 44px;
+    padding-bottom: fluid(40, 0);
+  }
+
+  .slider__scrollbar {
+    @include mobile {
+      width: calc(100vw - 32px);
+    }
+  }
+
+  .slider__scrollbar,
+  .more-button {
+    @include mobile {
+      margin-right: 16px;
+    }
+  }
+}
