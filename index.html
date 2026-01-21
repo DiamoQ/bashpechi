@@ -1,0 +1,1756 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stream Vibe | Главная</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <script src="/assets/main.js" type="module"></script>
+    <link rel="stylesheet" href="/assets/bundle.css">
+  </head>
+  <body>
+    <header class="header" data-js-overlay-menu="">
+      <div class="header__inner container">
+        <div class="header__inner-top">
+          <div class="header__points">
+            <div class="header__points-label">Большеустикинское</div>
+            <div class="header__points-info">
+              <div class="header__points-cities"><span class="button__icon icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/assets/images/icons.svg#cities"></use>
+                  </svg>
+                </span>15 городов</div><span class="header__points-value"><span class="button__icon icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/assets/images/icons.svg#points"></use>
+                  </svg>
+                </span>35 точек</span>
+            </div>
+          </div>
+          <div class="header__controls">
+            <nav class="header__menu header__menu-top">
+              <ul class="header__menu-list">
+                <li class="header__menu-item">
+                  <a href="/bashpechi/about" class="header__menu-link">О нас</a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="/bashpechi/dealer" class="header__menu-link">Дилерам</a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="/bashpechi/receipt-and-payment" class="header__menu-link">Получение и оплата</a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="/bashpechi/delivery" class="header__menu-link">Доставка</a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="/bashpechi/help" class="header__menu-link">Сервис и поддержка</a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="/bashpechi/contacts" class="header__menu-link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <a class="header__company-phone" href="tel:+73472662316"><span class="button__icon icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#phone"></use>
+                </svg>
+              </span>+7 (347) 266 23 16</a>
+          </div>
+        </div>
+        <div class="header__inner-bottom">
+          <div class="header__primary">
+            <div class="header__primary-search">
+              <a class="logo" href="/bashpechi" title="Главная" aria-label="Главная">
+                <img class="logo__image" src="/src/assets/images/logo.png" alt="Логотип компании Башпечи">
+              </a>
+              <a class="katalog-button button button--red" href="/bashpechi/katalog"><span class="button__icon icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/assets/images/icons.svg#katalog"></use>
+                  </svg>
+                </span><span class="button__label">Каталог</span></a>
+              <form id="navigationSearch" class="search navigation__search">
+                <label for="navigation-search">Поиск
+                  <input type="text" name="search" id="navigation-search" class="navigation__input" placeholder="Поиск">
+                </label>
+                <button type="submit" class="input__btn" aria-label="Найти" title="Найти"><span class="button__icon icon">
+                    <svg fill="currentColor" stroke="none">
+                      <use href="/assets/images/icons.svg#search"></use>
+                    </svg>
+                  </span></button>
+              </form>
+            </div>
+            <div class="header__primary-buttons">
+              <a class="favorite-button button button--transparent button--above" href="/bashpechi/favorite"><span class="button__icon icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/assets/images/icons.svg#favorite"></use>
+                  </svg>
+                </span><span class="button__label">Избранное</span></a>
+              <a class="compare-button button button--transparent button--above" href="/bashpechi/compare"><span class="button__icon icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/assets/images/icons.svg#compare"></use>
+                  </svg>
+                </span><span class="button__label">Сравнить</span></a>
+              <a class="basket-button button button--transparent button--above" href="/bashpechi/basket"><span class="button__icon icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/assets/images/icons.svg#basket"></use>
+                  </svg>
+                </span><span class="button__label">Корзина</span></a>
+              <a class="login-button button button--transparent button--above" href="/bashpechi/login"><span class="button__icon icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/assets/images/icons.svg#login"></use>
+                  </svg>
+                </span><span class="button__label">Войти</span></a>
+              <button class="search-button visible-tablet button button--white" type="button" data-search-button="search-window"><span class="button__icon icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/assets/images/icons.svg#search"></use>
+                  </svg>
+                </span></button>
+              <button class="header__burger-button visible-tablet burger-button" type="button" aria-label="Open menu" title="Open menu" data-js-overlay-menu-burger-button="">
+                <svg class="burger-button__svg" width="30" height="30" viewBox="0 0 100 100">
+                  <path class="burger-button__line burger-button__line--1" d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"></path>
+                  <path class="burger-button__line burger-button__line--2" d="M 20,50 H 80"></path>
+                  <path class="burger-button__line burger-button__line--3" d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"></path>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <div class="header__navigation">
+            <nav class="header__menu header__menu-bottom">
+              <ul class="header__menu-list">
+                <li class="header__menu-item">
+                  <a href="/bashpechi/promotion" class="header__menu-link">Акции</a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="/bashpechi/services" class="header__menu-link">Услуги</a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="/bashpechi/bathhouse" class="header__menu-link">Всё для бани</a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="/bashpechi/sauna" class="header__menu-link">Всё для сауны</a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="/bashpechi/grill" class="header__menu-link">Всё для мангала</a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="/bashpechi/accessories" class="header__menu-link">Аксессуары</a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="/bashpechi/components" class="header__menu-link">Комлектующие</a>
+                </li>
+              </ul>
+            </nav>
+            <button class="header__button-call button button--white" type="button" data-js-modal-notify-button="callback-window"><span class="button__label">Заказать звонок</span></button>
+          </div>
+          <dialog class="header__overlay-menu-dialog" data-js-overlay-menu-dialog="">
+            <div class="header__points-label">Большеустикинское</div>
+            <nav class="header__overlay-navigation">
+              <ul class="header__menu-list header__menu-list--main">
+                <li class="header__menu-item">
+                  <a href="/bashpechi/promotion" class="header__menu-link">Акции</a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="/bashpechi/services" class="header__menu-link">Услуги</a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="/bashpechi/bathhouse" class="header__menu-link">Всё для бани</a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="/bashpechi/sauna" class="header__menu-link">Всё для сауны</a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="/bashpechi/grill" class="header__menu-link">Всё для мангала</a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="/bashpechi/accessories" class="header__menu-link">Аксессуары</a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="/bashpechi/components" class="header__menu-link">Комлектующие</a>
+                </li>
+              </ul>
+              <ul class="header__menu-list">
+                <li class="header__menu-item">
+                  <a href="/bashpechi/about" class="header__menu-link">О нас</a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="/bashpechi/dealer" class="header__menu-link">Дилерам</a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="/bashpechi/receipt-and-payment" class="header__menu-link">Получение и оплата</a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="/bashpechi/delivery" class="header__menu-link">Доставка</a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="/bashpechi/help" class="header__menu-link">Сервис и поддержка</a>
+                </li>
+                <li class="header__menu-item">
+                  <a href="/bashpechi/contacts" class="header__menu-link">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header__overlay-actions">
+              <a class="header__company-phone" href="tel:+73472662316"><span class="button__icon icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/assets/images/icons.svg#phone"></use>
+                  </svg>
+                </span>+7 (347) 266 23 16</a>
+              <button class="header__button-call button button--white" type="button" data-js-modal-notify-button="callback-window"><span class="button__label">Заказать звонок</span></button>
+            </div>
+          </dialog>
+        </div>
+      </div>
+    </header>
+    <main class="content">
+      <h1 class="visually-hidden">Main</h1>
+      <section class="main-slider container">
+        <div class="slider" data-js-slider="{&quot;sliderParams&quot;:{&quot;slidesPerView&quot;:1,&quot;loop&quot;:true,&quot;spaceBetween&quot;:10,&quot;autoplay&quot;:{&quot;delay&quot;:6000,&quot;disableOnInteraction&quot;:false},&quot;breakpoints&quot;:{&quot;1024&quot;:{&quot;allowTouchMove&quot;:false}}},&quot;navigationTargetElementId&quot;:null}">
+          <div class="slider__swiper swiper" data-js-slider-swiper="">
+            <ul class="slider__list swiper-wrapper">
+              <li class="slider__item swiper-slide">
+                <a class="main__slide" href="#" target="_blank" rel="noopener noreferrer" title="Чугунные печи,для бани и сауны,Атмосфера">
+                  <picture>
+                    <source srcset="/bashpechi/images/main-slider/bg-mobile.png" media="(max-width: 480px)">
+                    <img class="main__slide" src="/bashpechi/images/main-slider/bg.png" alt="Чугунные печи,для бани и сауны,Атмосфера">
+                  </picture>
+                  <div class="main__slide-content"><span class="main__slide-label">Хит продаж</span>
+                    <h2 class="main__slide-title"><span class="main__slide-title-line">Чугунные печи</span><span class="main__slide-title-line">для бани и сауны</span><span class="main__slide-title-line">Атмосфера</span></h2>
+                    <div class="main__slide-description"><span class="main__slide-description-line">Эстетика технологий,</span><span class="main__slide-description-line">воплощенная в чугуне</span></div>
+                  </div>
+                </a>
+              </li>
+              <li class="slider__item swiper-slide">
+                <a class="main__slide" href="#" target="_blank" rel="noopener noreferrer" title="Чугунные печи,для бани и сауны Атмосфера,Атмосфера">
+                  <picture>
+                    <source srcset="/bashpechi/images/main-slider/bg-mobile.png" media="(max-width: 480px)">
+                    <img class="main__slide" src="/bashpechi/images/main-slider/bg.png" alt="Чугунные печи,для бани и сауны Атмосфера,Атмосфера">
+                  </picture>
+                  <div class="main__slide-content"><span class="main__slide-label">Популярное</span>
+                    <h2 class="main__slide-title"><span class="main__slide-title-line">Чугунные печи</span><span class="main__slide-title-line">для бани и сауны Атмосфера</span><span class="main__slide-title-line">Атмосфера</span></h2>
+                    <div class="main__slide-description"><span class="main__slide-description-line">Эстетика технологий,</span><span class="main__slide-description-line">воплощенная в чугуне</span></div>
+                  </div>
+                </a>
+              </li>
+              <li class="slider__item swiper-slide">
+                <a class="main__slide" href="#" target="_blank" rel="noopener noreferrer" title="Чугунные печи,для бани и сауны Атмосфера,Атмосфера">
+                  <picture>
+                    <source srcset="/bashpechi/images/main-slider/bg-mobile.png" media="(max-width: 480px)">
+                    <img class="main__slide" src="/bashpechi/images/main-slider/bg.png" alt="Чугунные печи,для бани и сауны Атмосфера,Атмосфера">
+                  </picture>
+                  <div class="main__slide-content"><span class="main__slide-label">Новинка</span>
+                    <h2 class="main__slide-title"><span class="main__slide-title-line">Чугунные печи</span><span class="main__slide-title-line">для бани и сауны Атмосфера</span><span class="main__slide-title-line">Атмосфера</span></h2>
+                    <div class="main__slide-description"><span class="main__slide-description-line">Эстетика технологий,</span><span class="main__slide-description-line">воплощенная в чугуне</span></div>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="slider__navigation slider-navigation slider-navigation--abs-bottom hidden-mobile" data-js-slider-navigation="">
+            <button class="slider-navigation__arrow-button slider-navigation__arrow-button--previous button button--transparent" aria-label="Предыдущий слайд" title="Предыдущий слайд" type="button" data-js-slider-previous-button=""><span class="button__icon icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#arrow-left"></use>
+                </svg>
+              </span></button>
+            <button class="slider-navigation__arrow-button slider-navigation__arrow-button--next button button--transparent" aria-label="Следующий слайд" title="Следующий слайд" type="button" data-js-slider-next-button=""><span class="button__icon icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#arrow-right"></use>
+                </svg>
+              </span></button>
+          </div>
+          <div class="slider__pagination" data-js-slider-pagination=""></div>
+        </div>
+      </section>
+      <section class="categories section container" aria-labelledby="categories-title">
+        <header class="section__header  visually-hidden">
+          <div class="section__title-wrapper">
+            <h2 class="section__title false" id="categories-title">Категории</h2>
+          </div>
+        </header>
+        <div class="section__body">
+          <div class="categories__list">
+            <a class="category-card" href="/bashpechi/mangaly" target="_blank">
+              <h3 class="category-card__title">Мангалы, Грили, Смокеры</h3>
+              <div class="category-card__info"><span class="category-card__path">Мангальные зоны / Смокеры / Грили / Мангалы /Печи под казан / Аксессуары</span>
+                <img srcset="/assets/images/mangaly-320x314.png 320w, /assets/images/mangaly-350x344.png 350w" src="/assets/images/mangaly-350x344.png" sizes="(min-width: 350px) 350px, 100vw" width="350" height="344" alt="Мангалы, Грили, Смокеры" decoding="async" loading="lazy" class="category-card__image">
+              </div><span class="category-card__icon category-card__icon--tl icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-tl"></use>
+                </svg>
+              </span><span class="category-card__icon category-card__icon--tr icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-tr"></use>
+                </svg>
+              </span><span class="category-card__icon category-card__icon--br icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-br"></use>
+                </svg>
+              </span><span class="category-card__icon category-card__icon--bl icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-bl"></use>
+                </svg>
+              </span>
+            </a>
+            <a class="category-card" href="/bashpechi/pechi" target="_blank">
+              <h3 class="category-card__title">Печи</h3>
+              <div class="category-card__info"><span class="category-card__path">Отопительные / Банные / Стальные / Чугунные</span>
+                <img srcset="/assets/images/pechi-110x110.png 110w" src="/assets/images/pechi-110x110.png" sizes="(min-width: 110px) 110px, 100vw" width="110" height="110" alt="Печи" decoding="async" loading="lazy" class="category-card__image">
+              </div><span class="category-card__icon category-card__icon--tl icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-tl"></use>
+                </svg>
+              </span><span class="category-card__icon category-card__icon--tr icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-tr"></use>
+                </svg>
+              </span><span class="category-card__icon category-card__icon--br icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-br"></use>
+                </svg>
+              </span><span class="category-card__icon category-card__icon--bl icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-bl"></use>
+                </svg>
+              </span>
+            </a>
+            <a class="category-card" href="/bashpechi/baki" target="_blank">
+              <h3 class="category-card__title">Баки для воды</h3>
+              <div class="category-card__info"><span class="category-card__path">Навесные / Приставные / Теплообменники /Запорная арматура</span>
+                <img srcset="/assets/images/baki-110x110.png 110w" src="/assets/images/baki-110x110.png" sizes="(min-width: 110px) 110px, 100vw" width="110" height="110" alt="Баки для воды" decoding="async" loading="lazy" class="category-card__image">
+              </div><span class="category-card__icon category-card__icon--tl icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-tl"></use>
+                </svg>
+              </span><span class="category-card__icon category-card__icon--tr icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-tr"></use>
+                </svg>
+              </span><span class="category-card__icon category-card__icon--br icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-br"></use>
+                </svg>
+              </span><span class="category-card__icon category-card__icon--bl icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-bl"></use>
+                </svg>
+              </span>
+            </a>
+            <a class="category-card" href="/bashpechi/odnidimohody" target="_blank">
+              <h3 class="category-card__title">Одноконтурные домоходы</h3>
+              <div class="category-card__info"><span class="category-card__path">Комплектующие / Интерьерные</span>
+                <img srcset="/assets/images/odnidimohody-110x110.png 110w" src="/assets/images/odnidimohody-110x110.png" sizes="(min-width: 110px) 110px, 100vw" width="110" height="110" alt="Одноконтурные домоходы" decoding="async" loading="lazy" class="category-card__image">
+              </div><span class="category-card__icon category-card__icon--tl icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-tl"></use>
+                </svg>
+              </span><span class="category-card__icon category-card__icon--tr icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-tr"></use>
+                </svg>
+              </span><span class="category-card__icon category-card__icon--br icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-br"></use>
+                </svg>
+              </span><span class="category-card__icon category-card__icon--bl icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-bl"></use>
+                </svg>
+              </span>
+            </a>
+            <a class="category-card" href="/bashpechi/dvadimohody" target="_blank">
+              <h3 class="category-card__title">Двухконтурные домоходы</h3>
+              <div class="category-card__info"><span class="category-card__path">Копмлектующие / Интерьерные</span>
+                <img srcset="/assets/images/dvadimohody-110x110.png 110w" src="/assets/images/dvadimohody-110x110.png" sizes="(min-width: 110px) 110px, 100vw" width="110" height="110" alt="Двухконтурные домоходы" decoding="async" loading="lazy" class="category-card__image">
+              </div><span class="category-card__icon category-card__icon--tl icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-tl"></use>
+                </svg>
+              </span><span class="category-card__icon category-card__icon--tr icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-tr"></use>
+                </svg>
+              </span><span class="category-card__icon category-card__icon--br icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-br"></use>
+                </svg>
+              </span><span class="category-card__icon category-card__icon--bl icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-bl"></use>
+                </svg>
+              </span>
+            </a>
+            <a class="category-card" href="/bashpechi/aksesuary" target="_blank">
+              <h3 class="category-card__title">Аксессуары</h3>
+              <div class="category-card__info"><span class="category-card__path">Дровницы / Ковшы / Экраны / Флюгеры</span>
+                <img srcset="/assets/images/aksesuary-110x110.png 110w" src="/assets/images/aksesuary-110x110.png" sizes="(min-width: 110px) 110px, 100vw" width="110" height="110" alt="Аксессуары" decoding="async" loading="lazy" class="category-card__image">
+              </div><span class="category-card__icon category-card__icon--tl icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-tl"></use>
+                </svg>
+              </span><span class="category-card__icon category-card__icon--tr icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-tr"></use>
+                </svg>
+              </span><span class="category-card__icon category-card__icon--br icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-br"></use>
+                </svg>
+              </span><span class="category-card__icon category-card__icon--bl icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-bl"></use>
+                </svg>
+              </span>
+            </a>
+            <a class="category-card" href="/bashpechi/komplektaciya" target="_blank">
+              <h3 class="category-card__title">Комплектующие</h3>
+              <div class="category-card__info"><span class="category-card__path">Дверцы / Плиты / Задвижки / Казаны / Решетки</span>
+                <img srcset="/assets/images/komplektaciya-110x110.png 110w" src="/assets/images/komplektaciya-110x110.png" sizes="(min-width: 110px) 110px, 100vw" width="110" height="110" alt="Комплектующие" decoding="async" loading="lazy" class="category-card__image">
+              </div><span class="category-card__icon category-card__icon--tl icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-tl"></use>
+                </svg>
+              </span><span class="category-card__icon category-card__icon--tr icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-tr"></use>
+                </svg>
+              </span><span class="category-card__icon category-card__icon--br icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-br"></use>
+                </svg>
+              </span><span class="category-card__icon category-card__icon--bl icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-bl"></use>
+                </svg>
+              </span>
+            </a>
+            <a class="category-card" href="/bashpechi/kamni" target="_blank">
+              <h3 class="category-card__title">Камни</h3>
+              <div class="category-card__info"><span class="category-card__path">Натуральные камни / Металические пирамидки</span>
+                <img srcset="/assets/images/kamni-110x110.png 110w" src="/assets/images/kamni-110x110.png" sizes="(min-width: 110px) 110px, 100vw" width="110" height="110" alt="Камни" decoding="async" loading="lazy" class="category-card__image">
+              </div><span class="category-card__icon category-card__icon--tl icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-tl"></use>
+                </svg>
+              </span><span class="category-card__icon category-card__icon--tr icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-tr"></use>
+                </svg>
+              </span><span class="category-card__icon category-card__icon--br icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-br"></use>
+                </svg>
+              </span><span class="category-card__icon category-card__icon--bl icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-bl"></use>
+                </svg>
+              </span>
+            </a>
+            <a class="category-card" href="/bashpechi/materialy" target="_blank">
+              <h3 class="category-card__title">Материалы</h3>
+              <div class="category-card__info"><span class="category-card__path">Огнеупорные материалы / Эмали / Герметики</span>
+                <img srcset="/assets/images/materialy-110x110.png 110w" src="/assets/images/materialy-110x110.png" sizes="(min-width: 110px) 110px, 100vw" width="110" height="110" alt="Материалы" decoding="async" loading="lazy" class="category-card__image">
+              </div><span class="category-card__icon category-card__icon--tl icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-tl"></use>
+                </svg>
+              </span><span class="category-card__icon category-card__icon--tr icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-tr"></use>
+                </svg>
+              </span><span class="category-card__icon category-card__icon--br icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-br"></use>
+                </svg>
+              </span><span class="category-card__icon category-card__icon--bl icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/assets/images/icons.svg#corner-bl"></use>
+                </svg>
+              </span>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="about section container" aria-labelledby="about-title">
+        <header class="section__header false">
+          <div class="section__label"><span>О компании</span></div>
+          <div class="section__title-wrapper">
+            <h2 class="section__title false" id="about-title">Башпечи - это настоящие печи для вашей бани и сауны. Мы занимаемся производством банных печей уже более 20 лет и за это время прошли путь от первых моделей до продуманных решений, которые служат десятилетиями.</h2>
+          </div>
+        </header>
+        <div class="section__body">
+          <div class="about__block">
+            <div class="about__block-label h4"><span>Наша специализация</span></div>
+            <div class="about__block-info">
+              <img srcset="/assets/images/ab1-233x140.png 233w" src="/assets/images/ab1-233x140.png" sizes="(min-width: 233px) 233px, 100vw" width="233" height="140" alt="Наша специализация" decoding="async" loading="lazy">
+              <div class="about__block-text">
+                <p>Основное направление нашей деятельности компании «БашПечи» - изготовление и продажа печей для бани, сауны и отопления, а так же мангалов, грилей и мангальных комплексов из стали различной толщины, эксплуатируемых на твердом топливе. Наша компания реализует продукцию собственного производства, поэтому мы не только предлагаем Вам самые низкие цены без торговых наценок и переплат, но и даем гарантию высокого качества.</p>
+              </div>
+            </div>
+          </div>
+          <div class="about__hidden-block" aria-hidden="true" id="informationMore">
+            <div class="about__block">
+              <div class="about__block-label h4"><span>Собственное производство</span></div>
+              <div class="about__block-info">
+                <img srcset="/assets/images/ab2-233x140.png 233w" src="/assets/images/ab2-233x140.png" sizes="(min-width: 233px) 233px, 100vw" width="233" height="140" alt="Собственное производство" decoding="async" loading="lazy">
+                <div class="about__block-text">
+                  <p>Кроме производства банных печей, мы изготавливаем широкий ассортимент изделий на базе собственного производства печи и ёмкости любых модификаций и назначения. Это могут быть отопительные и варочные печи, буржуйки, модели для приготовления пищи, для бань и саун, а также нестандартные решения, разработанные под конкретные задачи заказчика. Мы выполняем изделия по индивидуальным проектам, чертежам и размерам, учитывая все технические требования и пожелания. </p>
+                </div>
+              </div>
+            </div>
+            <div class="about__block">
+              <div class="about__block-label h4"><span>Современные технологии</span></div>
+              <div class="about__block-info">
+                <img srcset="/assets/images/ab3-233x140.png 233w" src="/assets/images/ab3-233x140.png" sizes="(min-width: 233px) 233px, 100vw" width="233" height="140" alt="Современные технологии" decoding="async" loading="lazy">
+                <div class="about__block-text">
+                  <p>При изготовлении нашей продукции мы используем самые современные технологии, подкрепляя их обширными знаниями о русских банных традициях. Печи изготавливаются из надежных, современных и экологически чистых материалов. На заводе ведется контроль качества каждой изготовленной единицы продукции отделом технического контроля. Мы поможем вам подобрать модель печи, идеально подходящую для Вас с учетом Ваших пожелании и потребностей. Мы уверены, что наши печи принесут Вам тепло, здоровье, отличное настроение и будут радовать Вас своей безупречной работой долгие годы.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="blocks__more-btn visible-mobile" type="button" data-js-more-trigger="" aria-controls="informationMore" aria-expanded="false" data-label-open="Скрыть" data-label-close="Подробнее">Подробнее</button>
+          <ul class="advantages-list">
+            <li class="advantages-item"><span class="advantages-item__title h2">с 2002 года</span><span class="advantages-item__description">мы работаем 23 года и знаем всё о правильном тепле и надёжных печах.</span></li>
+            <li class="advantages-item"><span class="advantages-item__title h2">+150 000 печей</span><span class="advantages-item__description">установлено и наши изделия служат в банях, домах и хозяйствах.</span></li>
+            <li class="advantages-item"><span class="advantages-item__title h2">435+ дилеров</span><span class="advantages-item__description">представляют продукцию компании в разных регионах страны.</span></li>
+            <li class="advantages-item"><span class="advantages-item__title h2">30+ моделей</span><span class="advantages-item__description">и решений классических печей и индивидуальных конструкций.</span></li>
+          </ul>
+        </div>
+      </section>
+      <section class="hits slider-outside-arrows section container section--with-page-link" aria-labelledby="hits-title">
+        <header class="section__header false">
+          <div class="section__label"><span>Рекомендуем</span></div>
+          <div class="section__title-wrapper">
+            <h2 class="section__title false" id="hits-title">Хиты и новинки</h2>
+            <a href="/hits" class="section__page-link hidden-mobile">Смотреть все товары</a>
+          </div>
+        </header>
+        <div class="section__body">
+          <div class="slider-inner hits__slider-inner">
+            <div class="slider" data-js-slider="{&quot;sliderParams&quot;:{&quot;slidesPerView&quot;:4,&quot;slidesPerGroup&quot;:1,&quot;spaceBetween&quot;:20,&quot;allowTouchMove&quot;:true,&quot;breakpoints&quot;:{&quot;0&quot;:{&quot;slidesPerView&quot;:1,&quot;slidesPerGroup&quot;:1,&quot;spaceBetween&quot;:20,&quot;allowTouchMove&quot;:true,&quot;enabled&quot;:true},&quot;481&quot;:{&quot;slidesPerView&quot;:2,&quot;slidesPerGroup&quot;:1,&quot;spaceBetween&quot;:20,&quot;allowTouchMove&quot;:true,&quot;enabled&quot;:true},&quot;768&quot;:{&quot;slidesPerView&quot;:2,&quot;slidesPerGroup&quot;:1,&quot;spaceBetween&quot;:20,&quot;allowTouchMove&quot;:true,&quot;enabled&quot;:true},&quot;991&quot;:{&quot;slidesPerView&quot;:3,&quot;slidesPerGroup&quot;:1,&quot;spaceBetween&quot;:20,&quot;allowTouchMove&quot;:true,&quot;enabled&quot;:true},&quot;1260&quot;:{&quot;slidesPerView&quot;:4,&quot;slidesPerGroup&quot;:1,&quot;spaceBetween&quot;:20,&quot;allowTouchMove&quot;:true,&quot;enabled&quot;:true}}},&quot;navigationTargetElementId&quot;:&quot;hits-slider-navigation&quot;}">
+              <div class="slider__swiper swiper" data-js-slider-swiper="">
+                <ul class="slider__list swiper-wrapper">
+                  <li class="slider__item swiper-slide">
+                    <article class="product-card">
+                      <a class="product-card__media" href="#" aria-label="Печь ПКМ-гриль на ножках стандарт">
+                        <img srcset="/assets/images/nanojkah-320x346.png 320w, /assets/images/nanojkah-400x432.png 400w, /assets/images/nanojkah-640x691.png 640w, /assets/images/nanojkah-680x736.png 680w" src="/assets/images/nanojkah-680x736.png" sizes="(min-width: 680px) 680px, 100vw" width="680" height="736" alt="Фотография товара Печь ПКМ-гриль на ножках стандарт" decoding="async" loading="lazy" class="product-card__image"><span class="product-card__badge" aria-label="Хит">Хит</span>
+                      </a>
+                      <div class="product-card__body">
+                        <a class="product-card__title h4" href="/bashpechi/nanogkah">Печь ПКМ-гриль на ножках стандарт</a>
+                        <div class="product-card__bottom">
+                          <div class="product-card__price" aria-label="Цена 26 400 рублей">26 400<!-- --> ₽</div>
+                          <div class="product-card__actions">
+                            <button class="favorite-button button button--transparent" type="button"><span class="button__icon icon">
+                                <svg fill="none" stroke="currentColor">
+                                  <use href="/assets/images/icons.svg#favorite"></use>
+                                </svg>
+                              </span></button>
+                            <a class="product-card__button button button--red" href="/bashpechi/nanogkah"><span class="button__label">Подробнее</span></a>
+                          </div>
+                        </div>
+                      </div><span class="product-card__icon product-card__icon--tl icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-tl"></use>
+                        </svg>
+                      </span><span class="product-card__icon product-card__icon--tr icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-tr"></use>
+                        </svg>
+                      </span><span class="product-card__icon product-card__icon--br icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-br"></use>
+                        </svg>
+                      </span><span class="product-card__icon product-card__icon--bl icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-bl"></use>
+                        </svg>
+                      </span>
+                    </article>
+                  </li>
+                  <li class="slider__item swiper-slide">
+                    <article class="product-card">
+                      <a class="product-card__media" href="#" aria-label="Мангальная станция «Бионика» + мангал 4мм 75см соты ">
+                        <img srcset="/assets/images/bionika-320x346.png 320w, /assets/images/bionika-400x432.png 400w, /assets/images/bionika-640x691.png 640w, /assets/images/bionika-680x736.png 680w" src="/assets/images/bionika-680x736.png" sizes="(min-width: 680px) 680px, 100vw" width="680" height="736" alt="Фотография товара Мангальная станция «Бионика» + мангал 4мм 75см соты " decoding="async" loading="lazy" class="product-card__image"><span class="product-card__badge" aria-label="Новинка">Новинка</span>
+                      </a>
+                      <div class="product-card__body">
+                        <a class="product-card__title h4" href="/bashpechi/bionika">Мангальная станция «Бионика» + мангал 4мм 75см соты </a>
+                        <div class="product-card__bottom">
+                          <div class="product-card__price" aria-label="Цена 26 900 рублей">26 900<!-- --> ₽</div>
+                          <div class="product-card__actions">
+                            <button class="favorite-button button button--transparent" type="button"><span class="button__icon icon">
+                                <svg fill="none" stroke="currentColor">
+                                  <use href="/assets/images/icons.svg#favorite"></use>
+                                </svg>
+                              </span></button>
+                            <a class="product-card__button button button--red" href="/bashpechi/bionika"><span class="button__label">Подробнее</span></a>
+                          </div>
+                        </div>
+                      </div><span class="product-card__icon product-card__icon--tl icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-tl"></use>
+                        </svg>
+                      </span><span class="product-card__icon product-card__icon--tr icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-tr"></use>
+                        </svg>
+                      </span><span class="product-card__icon product-card__icon--br icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-br"></use>
+                        </svg>
+                      </span><span class="product-card__icon product-card__icon--bl icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-bl"></use>
+                        </svg>
+                      </span>
+                    </article>
+                  </li>
+                  <li class="slider__item swiper-slide">
+                    <article class="product-card">
+                      <a class="product-card__media" href="#" aria-label="«Атмосфера М» короткий топливный тоннель">
+                        <img srcset="/assets/images/atmosfera-320x346.png 320w, /assets/images/atmosfera-400x432.png 400w, /assets/images/atmosfera-640x691.png 640w, /assets/images/atmosfera-680x736.png 680w" src="/assets/images/atmosfera-680x736.png" sizes="(min-width: 680px) 680px, 100vw" width="680" height="736" alt="Фотография товара «Атмосфера М» короткий топливный тоннель" decoding="async" loading="lazy" class="product-card__image"><span class="product-card__badge" aria-label="Хит">Хит</span>
+                      </a>
+                      <div class="product-card__body">
+                        <a class="product-card__title h4" href="/bashpechi/atmosfera">«Атмосфера М» короткий топливный тоннель</a>
+                        <div class="product-card__bottom">
+                          <div class="product-card__price" aria-label="Цена 78 700 рублей">78 700<!-- --> ₽</div>
+                          <div class="product-card__actions">
+                            <button class="favorite-button button button--transparent" type="button"><span class="button__icon icon">
+                                <svg fill="none" stroke="currentColor">
+                                  <use href="/assets/images/icons.svg#favorite"></use>
+                                </svg>
+                              </span></button>
+                            <a class="product-card__button button button--red" href="/bashpechi/atmosfera"><span class="button__label">Подробнее</span></a>
+                          </div>
+                        </div>
+                      </div><span class="product-card__icon product-card__icon--tl icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-tl"></use>
+                        </svg>
+                      </span><span class="product-card__icon product-card__icon--tr icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-tr"></use>
+                        </svg>
+                      </span><span class="product-card__icon product-card__icon--br icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-br"></use>
+                        </svg>
+                      </span><span class="product-card__icon product-card__icon--bl icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-bl"></use>
+                        </svg>
+                      </span>
+                    </article>
+                  </li>
+                  <li class="slider__item swiper-slide">
+                    <article class="product-card">
+                      <a class="product-card__media" href="#" aria-label="Печь ПКМ-гриль на ножках стандарт">
+                        <img srcset="/assets/images/pkm-320x346.png 320w, /assets/images/pkm-400x432.png 400w, /assets/images/pkm-640x691.png 640w, /assets/images/pkm-680x736.png 680w" src="/assets/images/pkm-680x736.png" sizes="(min-width: 680px) 680px, 100vw" width="680" height="736" alt="Фотография товара Печь ПКМ-гриль на ножках стандарт" decoding="async" loading="lazy" class="product-card__image"><span class="product-card__badge" aria-label="Новинка">Новинка</span>
+                      </a>
+                      <div class="product-card__body">
+                        <a class="product-card__title h4" href="/bashpechi/pkm">Печь ПКМ-гриль на ножках стандарт</a>
+                        <div class="product-card__bottom">
+                          <div class="product-card__price" aria-label="Цена 26 400 рублей">26 400<!-- --> ₽</div>
+                          <div class="product-card__actions">
+                            <button class="favorite-button button button--transparent" type="button"><span class="button__icon icon">
+                                <svg fill="none" stroke="currentColor">
+                                  <use href="/assets/images/icons.svg#favorite"></use>
+                                </svg>
+                              </span></button>
+                            <a class="product-card__button button button--red" href="/bashpechi/pkm"><span class="button__label">Подробнее</span></a>
+                          </div>
+                        </div>
+                      </div><span class="product-card__icon product-card__icon--tl icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-tl"></use>
+                        </svg>
+                      </span><span class="product-card__icon product-card__icon--tr icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-tr"></use>
+                        </svg>
+                      </span><span class="product-card__icon product-card__icon--br icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-br"></use>
+                        </svg>
+                      </span><span class="product-card__icon product-card__icon--bl icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-bl"></use>
+                        </svg>
+                      </span>
+                    </article>
+                  </li>
+                  <li class="slider__item swiper-slide">
+                    <article class="product-card">
+                      <a class="product-card__media" href="#" aria-label="Печь ПКМ-гриль на ножках стандарт">
+                        <img srcset="/assets/images/nanojkah-320x346.png 320w, /assets/images/nanojkah-400x432.png 400w, /assets/images/nanojkah-640x691.png 640w, /assets/images/nanojkah-680x736.png 680w" src="/assets/images/nanojkah-680x736.png" sizes="(min-width: 680px) 680px, 100vw" width="680" height="736" alt="Фотография товара Печь ПКМ-гриль на ножках стандарт" decoding="async" loading="lazy" class="product-card__image"><span class="product-card__badge" aria-label="Хит">Хит</span>
+                      </a>
+                      <div class="product-card__body">
+                        <a class="product-card__title h4" href="/bashpechi/nanogkah">Печь ПКМ-гриль на ножках стандарт</a>
+                        <div class="product-card__bottom">
+                          <div class="product-card__price" aria-label="Цена 26 400 рублей">26 400<!-- --> ₽</div>
+                          <div class="product-card__actions">
+                            <button class="favorite-button button button--transparent" type="button"><span class="button__icon icon">
+                                <svg fill="none" stroke="currentColor">
+                                  <use href="/assets/images/icons.svg#favorite"></use>
+                                </svg>
+                              </span></button>
+                            <a class="product-card__button button button--red" href="/bashpechi/nanogkah"><span class="button__label">Подробнее</span></a>
+                          </div>
+                        </div>
+                      </div><span class="product-card__icon product-card__icon--tl icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-tl"></use>
+                        </svg>
+                      </span><span class="product-card__icon product-card__icon--tr icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-tr"></use>
+                        </svg>
+                      </span><span class="product-card__icon product-card__icon--br icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-br"></use>
+                        </svg>
+                      </span><span class="product-card__icon product-card__icon--bl icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-bl"></use>
+                        </svg>
+                      </span>
+                    </article>
+                  </li>
+                  <li class="slider__item swiper-slide">
+                    <article class="product-card">
+                      <a class="product-card__media" href="#" aria-label="Мангальная станция «Бионика» + мангал 4мм 75см соты ">
+                        <img srcset="/assets/images/bionika-320x346.png 320w, /assets/images/bionika-400x432.png 400w, /assets/images/bionika-640x691.png 640w, /assets/images/bionika-680x736.png 680w" src="/assets/images/bionika-680x736.png" sizes="(min-width: 680px) 680px, 100vw" width="680" height="736" alt="Фотография товара Мангальная станция «Бионика» + мангал 4мм 75см соты " decoding="async" loading="lazy" class="product-card__image"><span class="product-card__badge" aria-label="Новинка">Новинка</span>
+                      </a>
+                      <div class="product-card__body">
+                        <a class="product-card__title h4" href="/bashpechi/bionika">Мангальная станция «Бионика» + мангал 4мм 75см соты </a>
+                        <div class="product-card__bottom">
+                          <div class="product-card__price" aria-label="Цена 26 900 рублей">26 900<!-- --> ₽</div>
+                          <div class="product-card__actions">
+                            <button class="favorite-button button button--transparent" type="button"><span class="button__icon icon">
+                                <svg fill="none" stroke="currentColor">
+                                  <use href="/assets/images/icons.svg#favorite"></use>
+                                </svg>
+                              </span></button>
+                            <a class="product-card__button button button--red" href="/bashpechi/bionika"><span class="button__label">Подробнее</span></a>
+                          </div>
+                        </div>
+                      </div><span class="product-card__icon product-card__icon--tl icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-tl"></use>
+                        </svg>
+                      </span><span class="product-card__icon product-card__icon--tr icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-tr"></use>
+                        </svg>
+                      </span><span class="product-card__icon product-card__icon--br icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-br"></use>
+                        </svg>
+                      </span><span class="product-card__icon product-card__icon--bl icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-bl"></use>
+                        </svg>
+                      </span>
+                    </article>
+                  </li>
+                  <li class="slider__item swiper-slide">
+                    <article class="product-card">
+                      <a class="product-card__media" href="#" aria-label="«Атмосфера М» короткий топливный тоннель">
+                        <img srcset="/assets/images/atmosfera-320x346.png 320w, /assets/images/atmosfera-400x432.png 400w, /assets/images/atmosfera-640x691.png 640w, /assets/images/atmosfera-680x736.png 680w" src="/assets/images/atmosfera-680x736.png" sizes="(min-width: 680px) 680px, 100vw" width="680" height="736" alt="Фотография товара «Атмосфера М» короткий топливный тоннель" decoding="async" loading="lazy" class="product-card__image"><span class="product-card__badge" aria-label="Хит">Хит</span>
+                      </a>
+                      <div class="product-card__body">
+                        <a class="product-card__title h4" href="/bashpechi/atmosfera">«Атмосфера М» короткий топливный тоннель</a>
+                        <div class="product-card__bottom">
+                          <div class="product-card__price" aria-label="Цена 78 700 рублей">78 700<!-- --> ₽</div>
+                          <div class="product-card__actions">
+                            <button class="favorite-button button button--transparent" type="button"><span class="button__icon icon">
+                                <svg fill="none" stroke="currentColor">
+                                  <use href="/assets/images/icons.svg#favorite"></use>
+                                </svg>
+                              </span></button>
+                            <a class="product-card__button button button--red" href="/bashpechi/atmosfera"><span class="button__label">Подробнее</span></a>
+                          </div>
+                        </div>
+                      </div><span class="product-card__icon product-card__icon--tl icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-tl"></use>
+                        </svg>
+                      </span><span class="product-card__icon product-card__icon--tr icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-tr"></use>
+                        </svg>
+                      </span><span class="product-card__icon product-card__icon--br icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-br"></use>
+                        </svg>
+                      </span><span class="product-card__icon product-card__icon--bl icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-bl"></use>
+                        </svg>
+                      </span>
+                    </article>
+                  </li>
+                  <li class="slider__item swiper-slide">
+                    <article class="product-card">
+                      <a class="product-card__media" href="#" aria-label="Печь ПКМ-гриль на ножках стандарт">
+                        <img srcset="/assets/images/pkm-320x346.png 320w, /assets/images/pkm-400x432.png 400w, /assets/images/pkm-640x691.png 640w, /assets/images/pkm-680x736.png 680w" src="/assets/images/pkm-680x736.png" sizes="(min-width: 680px) 680px, 100vw" width="680" height="736" alt="Фотография товара Печь ПКМ-гриль на ножках стандарт" decoding="async" loading="lazy" class="product-card__image"><span class="product-card__badge" aria-label="Новинка">Новинка</span>
+                      </a>
+                      <div class="product-card__body">
+                        <a class="product-card__title h4" href="/bashpechi/pkm">Печь ПКМ-гриль на ножках стандарт</a>
+                        <div class="product-card__bottom">
+                          <div class="product-card__price" aria-label="Цена 26 400 рублей">26 400<!-- --> ₽</div>
+                          <div class="product-card__actions">
+                            <button class="favorite-button button button--transparent" type="button"><span class="button__icon icon">
+                                <svg fill="none" stroke="currentColor">
+                                  <use href="/assets/images/icons.svg#favorite"></use>
+                                </svg>
+                              </span></button>
+                            <a class="product-card__button button button--red" href="/bashpechi/pkm"><span class="button__label">Подробнее</span></a>
+                          </div>
+                        </div>
+                      </div><span class="product-card__icon product-card__icon--tl icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-tl"></use>
+                        </svg>
+                      </span><span class="product-card__icon product-card__icon--tr icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-tr"></use>
+                        </svg>
+                      </span><span class="product-card__icon product-card__icon--br icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-br"></use>
+                        </svg>
+                      </span><span class="product-card__icon product-card__icon--bl icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-bl"></use>
+                        </svg>
+                      </span>
+                    </article>
+                  </li>
+                </ul>
+              </div>
+              <div class="slider__scrollbar" data-js-slider-scrollbar=""></div>
+            </div>
+            <div class="slider-navigation slider-navigation--outside" id="hits-slider-navigation" data-js-slider-navigation="">
+              <button class="slider-navigation__arrow-button slider-navigation__arrow-button--previous button" aria-label="Предыдущий слайд" title="Предыдущий слайд" type="button" data-js-slider-previous-button=""><span class="button__icon icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/assets/images/icons.svg#arrow-left"></use>
+                  </svg>
+                </span></button>
+              <button class="slider-navigation__arrow-button slider-navigation__arrow-button--next button" aria-label="Следующий слайд" title="Следующий слайд" type="button" data-js-slider-next-button=""><span class="button__icon icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/assets/images/icons.svg#arrow-right"></use>
+                  </svg>
+                </span></button>
+            </div>
+          </div>
+          <a class="more-button visible-mobile button button--white" href="/hits"><span class="button__label">Смотреть все товары</span></a>
+        </div>
+      </section>
+      <section class="why section container" aria-labelledby="why-title">
+        <header class="section__header false">
+          <div class="section__label"><span>Почему мы</span></div>
+          <div class="section__title-wrapper">
+            <h2 class="section__title false" id="why-title">Кратко почему наши мангалы - лучший выбор для удобного, безопасного и надёжного приготовления еды на природе с продуманной конструкцией.</h2>
+          </div>
+        </header>
+        <div class="section__body">
+          <div class="slider" data-js-slider="{&quot;sliderParams&quot;:{&quot;slidesPerView&quot;:1,&quot;loop&quot;:true,&quot;spaceBetween&quot;:10,&quot;autoplay&quot;:{&quot;delay&quot;:20000,&quot;disableOnInteraction&quot;:false},&quot;breakpoints&quot;:{&quot;1024&quot;:{&quot;allowTouchMove&quot;:false}}},&quot;navigationTargetElementId&quot;:null}">
+            <div class="slider__swiper swiper" data-js-slider-swiper="">
+              <ul class="slider__list swiper-wrapper">
+                <li class="slider__item swiper-slide">
+                  <div class="why-slide">
+                    <div class="why-slide__info">
+                      <h3 class="why-slide__title">Объемная крышка и жаровня</h3>
+                      <p class="why-slide__description">Большая площадь жаровни- возможность одновременно готовить несколько блюд</p>
+                    </div>
+                    <div class="why-slide__photos">
+                      <div class="slider" data-js-slider="{&quot;sliderParams&quot;:{&quot;slidesPerView&quot;:1,&quot;loop&quot;:true,&quot;spaceBetween&quot;:10,&quot;autoplay&quot;:{&quot;delay&quot;:4000,&quot;disableOnInteraction&quot;:false},&quot;breakpoints&quot;:{&quot;1024&quot;:{&quot;allowTouchMove&quot;:false}}},&quot;navigationTargetElementId&quot;:null}">
+                        <div class="slider__swiper swiper" data-js-slider-swiper="">
+                          <ul class="slider__list swiper-wrapper" data-js-photoswipe="{&quot;children&quot;:&quot;a&quot;,&quot;zoom&quot;:true,&quot;wheelToZoom&quot;:true}">
+                            <li class="slider__item swiper-slide">
+                              <a href="src/assets/images/why/whywe.png">
+                                <img srcset="/assets/images/whywe-320x157.png 320w, /assets/images/whywe-400x196.png 400w, /assets/images/whywe-640x314.png 640w, /assets/images/whywe-800x392.png 800w, /assets/images/whywe-1024x502.png 1024w, /assets/images/whywe-1280x627.png 1280w, /assets/images/whywe-1440x706.png 1440w, /assets/images/whywe-1920x941.png 1920w, /assets/images/whywe-2078x1022.png 2078w" src="/assets/images/whywe-2078x1022.png" sizes="(min-width: 2078px) 2078px, 100vw" width="2078" height="1022" alt="Почему мы" decoding="async" loading="lazy">
+                              </a>
+                            </li>
+                            <li class="slider__item swiper-slide">
+                              <a href="src/assets/images/why/whywe.png">
+                                <img srcset="/assets/images/whywe-320x157.png 320w, /assets/images/whywe-400x196.png 400w, /assets/images/whywe-640x314.png 640w, /assets/images/whywe-800x392.png 800w, /assets/images/whywe-1024x502.png 1024w, /assets/images/whywe-1280x627.png 1280w, /assets/images/whywe-1440x706.png 1440w, /assets/images/whywe-1920x941.png 1920w, /assets/images/whywe-2078x1022.png 2078w" src="/assets/images/whywe-2078x1022.png" sizes="(min-width: 2078px) 2078px, 100vw" width="2078" height="1022" alt="Почему мы" decoding="async" loading="lazy">
+                              </a>
+                            </li>
+                            <li class="slider__item swiper-slide">
+                              <a href="src/assets/images/why/whywe.png">
+                                <img srcset="/assets/images/whywe-320x157.png 320w, /assets/images/whywe-400x196.png 400w, /assets/images/whywe-640x314.png 640w, /assets/images/whywe-800x392.png 800w, /assets/images/whywe-1024x502.png 1024w, /assets/images/whywe-1280x627.png 1280w, /assets/images/whywe-1440x706.png 1440w, /assets/images/whywe-1920x941.png 1920w, /assets/images/whywe-2078x1022.png 2078w" src="/assets/images/whywe-2078x1022.png" sizes="(min-width: 2078px) 2078px, 100vw" width="2078" height="1022" alt="Почему мы" decoding="async" loading="lazy">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="slider__navigation slider-navigation slider-navigation--abs-bottom hidden-mobile" data-js-slider-navigation="">
+                          <button class="slider-navigation__arrow-button slider-navigation__arrow-button--previous button" aria-label="Предыдущий слайд" title="Предыдущий слайд" type="button" data-js-slider-previous-button=""><span class="button__icon icon">
+                              <svg fill="none" stroke="currentColor">
+                                <use href="/assets/images/icons.svg#arrow-left"></use>
+                              </svg>
+                            </span></button>
+                          <button class="slider-navigation__arrow-button slider-navigation__arrow-button--next button" aria-label="Следующий слайд" title="Следующий слайд" type="button" data-js-slider-next-button=""><span class="button__icon icon">
+                              <svg fill="none" stroke="currentColor">
+                                <use href="/assets/images/icons.svg#arrow-right"></use>
+                              </svg>
+                            </span></button>
+                        </div>
+                        <div class="slider__pagination" data-js-slider-pagination=""></div>
+                      </div><span class="why-slide__icon why-slide__icon--tl icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-tl"></use>
+                        </svg>
+                      </span><span class="why-slide__icon why-slide__icon--tr icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-tr"></use>
+                        </svg>
+                      </span><span class="why-slide__icon why-slide__icon--br icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-br"></use>
+                        </svg>
+                      </span><span class="why-slide__icon why-slide__icon--bl icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-bl"></use>
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li class="slider__item swiper-slide">
+                  <div class="why-slide">
+                    <div class="why-slide__info">
+                      <h3 class="why-slide__title">Объемная жаровня</h3>
+                      <p class="why-slide__description">Большая площадь жаровни- возможность одновременно готовить несколько блюд</p>
+                    </div>
+                    <div class="why-slide__photos">
+                      <div class="slider" data-js-slider="{&quot;sliderParams&quot;:{&quot;slidesPerView&quot;:1,&quot;loop&quot;:true,&quot;spaceBetween&quot;:10,&quot;autoplay&quot;:{&quot;delay&quot;:4000,&quot;disableOnInteraction&quot;:false},&quot;breakpoints&quot;:{&quot;1024&quot;:{&quot;allowTouchMove&quot;:false}}},&quot;navigationTargetElementId&quot;:null}">
+                        <div class="slider__swiper swiper" data-js-slider-swiper="">
+                          <ul class="slider__list swiper-wrapper" data-js-photoswipe="{&quot;children&quot;:&quot;a&quot;,&quot;zoom&quot;:true,&quot;wheelToZoom&quot;:true}">
+                            <li class="slider__item swiper-slide">
+                              <a href="src/assets/images/why/whywe.png">
+                                <img srcset="/assets/images/whywe-320x157.png 320w, /assets/images/whywe-400x196.png 400w, /assets/images/whywe-640x314.png 640w, /assets/images/whywe-800x392.png 800w, /assets/images/whywe-1024x502.png 1024w, /assets/images/whywe-1280x627.png 1280w, /assets/images/whywe-1440x706.png 1440w, /assets/images/whywe-1920x941.png 1920w, /assets/images/whywe-2078x1022.png 2078w" src="/assets/images/whywe-2078x1022.png" sizes="(min-width: 2078px) 2078px, 100vw" width="2078" height="1022" alt="Почему мы" decoding="async" loading="lazy">
+                              </a>
+                            </li>
+                            <li class="slider__item swiper-slide">
+                              <a href="src/assets/images/why/whywe.png">
+                                <img srcset="/assets/images/whywe-320x157.png 320w, /assets/images/whywe-400x196.png 400w, /assets/images/whywe-640x314.png 640w, /assets/images/whywe-800x392.png 800w, /assets/images/whywe-1024x502.png 1024w, /assets/images/whywe-1280x627.png 1280w, /assets/images/whywe-1440x706.png 1440w, /assets/images/whywe-1920x941.png 1920w, /assets/images/whywe-2078x1022.png 2078w" src="/assets/images/whywe-2078x1022.png" sizes="(min-width: 2078px) 2078px, 100vw" width="2078" height="1022" alt="Почему мы" decoding="async" loading="lazy">
+                              </a>
+                            </li>
+                            <li class="slider__item swiper-slide">
+                              <a href="src/assets/images/why/whywe.png">
+                                <img srcset="/assets/images/whywe-320x157.png 320w, /assets/images/whywe-400x196.png 400w, /assets/images/whywe-640x314.png 640w, /assets/images/whywe-800x392.png 800w, /assets/images/whywe-1024x502.png 1024w, /assets/images/whywe-1280x627.png 1280w, /assets/images/whywe-1440x706.png 1440w, /assets/images/whywe-1920x941.png 1920w, /assets/images/whywe-2078x1022.png 2078w" src="/assets/images/whywe-2078x1022.png" sizes="(min-width: 2078px) 2078px, 100vw" width="2078" height="1022" alt="Почему мы" decoding="async" loading="lazy">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="slider__navigation slider-navigation slider-navigation--abs-bottom hidden-mobile" data-js-slider-navigation="">
+                          <button class="slider-navigation__arrow-button slider-navigation__arrow-button--previous button" aria-label="Предыдущий слайд" title="Предыдущий слайд" type="button" data-js-slider-previous-button=""><span class="button__icon icon">
+                              <svg fill="none" stroke="currentColor">
+                                <use href="/assets/images/icons.svg#arrow-left"></use>
+                              </svg>
+                            </span></button>
+                          <button class="slider-navigation__arrow-button slider-navigation__arrow-button--next button" aria-label="Следующий слайд" title="Следующий слайд" type="button" data-js-slider-next-button=""><span class="button__icon icon">
+                              <svg fill="none" stroke="currentColor">
+                                <use href="/assets/images/icons.svg#arrow-right"></use>
+                              </svg>
+                            </span></button>
+                        </div>
+                        <div class="slider__pagination" data-js-slider-pagination=""></div>
+                      </div><span class="why-slide__icon why-slide__icon--tl icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-tl"></use>
+                        </svg>
+                      </span><span class="why-slide__icon why-slide__icon--tr icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-tr"></use>
+                        </svg>
+                      </span><span class="why-slide__icon why-slide__icon--br icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-br"></use>
+                        </svg>
+                      </span><span class="why-slide__icon why-slide__icon--bl icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-bl"></use>
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+                <li class="slider__item swiper-slide">
+                  <div class="why-slide">
+                    <div class="why-slide__info">
+                      <h3 class="why-slide__title">Объемная крышка</h3>
+                      <p class="why-slide__description">Большая площадь жаровни- возможность одновременно готовить несколько блюд</p>
+                    </div>
+                    <div class="why-slide__photos">
+                      <div class="slider" data-js-slider="{&quot;sliderParams&quot;:{&quot;slidesPerView&quot;:1,&quot;loop&quot;:true,&quot;spaceBetween&quot;:10,&quot;autoplay&quot;:{&quot;delay&quot;:4000,&quot;disableOnInteraction&quot;:false},&quot;breakpoints&quot;:{&quot;1024&quot;:{&quot;allowTouchMove&quot;:false}}},&quot;navigationTargetElementId&quot;:null}">
+                        <div class="slider__swiper swiper" data-js-slider-swiper="">
+                          <ul class="slider__list swiper-wrapper" data-js-photoswipe="{&quot;children&quot;:&quot;a&quot;,&quot;zoom&quot;:true,&quot;wheelToZoom&quot;:true}">
+                            <li class="slider__item swiper-slide">
+                              <a href="src/assets/images/why/whywe.png">
+                                <img srcset="/assets/images/whywe-320x157.png 320w, /assets/images/whywe-400x196.png 400w, /assets/images/whywe-640x314.png 640w, /assets/images/whywe-800x392.png 800w, /assets/images/whywe-1024x502.png 1024w, /assets/images/whywe-1280x627.png 1280w, /assets/images/whywe-1440x706.png 1440w, /assets/images/whywe-1920x941.png 1920w, /assets/images/whywe-2078x1022.png 2078w" src="/assets/images/whywe-2078x1022.png" sizes="(min-width: 2078px) 2078px, 100vw" width="2078" height="1022" alt="Почему мы" decoding="async" loading="lazy">
+                              </a>
+                            </li>
+                            <li class="slider__item swiper-slide">
+                              <a href="src/assets/images/why/whywe.png">
+                                <img srcset="/assets/images/whywe-320x157.png 320w, /assets/images/whywe-400x196.png 400w, /assets/images/whywe-640x314.png 640w, /assets/images/whywe-800x392.png 800w, /assets/images/whywe-1024x502.png 1024w, /assets/images/whywe-1280x627.png 1280w, /assets/images/whywe-1440x706.png 1440w, /assets/images/whywe-1920x941.png 1920w, /assets/images/whywe-2078x1022.png 2078w" src="/assets/images/whywe-2078x1022.png" sizes="(min-width: 2078px) 2078px, 100vw" width="2078" height="1022" alt="Почему мы" decoding="async" loading="lazy">
+                              </a>
+                            </li>
+                            <li class="slider__item swiper-slide">
+                              <a href="src/assets/images/why/whywe.png">
+                                <img srcset="/assets/images/whywe-320x157.png 320w, /assets/images/whywe-400x196.png 400w, /assets/images/whywe-640x314.png 640w, /assets/images/whywe-800x392.png 800w, /assets/images/whywe-1024x502.png 1024w, /assets/images/whywe-1280x627.png 1280w, /assets/images/whywe-1440x706.png 1440w, /assets/images/whywe-1920x941.png 1920w, /assets/images/whywe-2078x1022.png 2078w" src="/assets/images/whywe-2078x1022.png" sizes="(min-width: 2078px) 2078px, 100vw" width="2078" height="1022" alt="Почему мы" decoding="async" loading="lazy">
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                        <div class="slider__navigation slider-navigation slider-navigation--abs-bottom hidden-mobile" data-js-slider-navigation="">
+                          <button class="slider-navigation__arrow-button slider-navigation__arrow-button--previous button" aria-label="Предыдущий слайд" title="Предыдущий слайд" type="button" data-js-slider-previous-button=""><span class="button__icon icon">
+                              <svg fill="none" stroke="currentColor">
+                                <use href="/assets/images/icons.svg#arrow-left"></use>
+                              </svg>
+                            </span></button>
+                          <button class="slider-navigation__arrow-button slider-navigation__arrow-button--next button" aria-label="Следующий слайд" title="Следующий слайд" type="button" data-js-slider-next-button=""><span class="button__icon icon">
+                              <svg fill="none" stroke="currentColor">
+                                <use href="/assets/images/icons.svg#arrow-right"></use>
+                              </svg>
+                            </span></button>
+                        </div>
+                        <div class="slider__pagination" data-js-slider-pagination=""></div>
+                      </div><span class="why-slide__icon why-slide__icon--tl icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-tl"></use>
+                        </svg>
+                      </span><span class="why-slide__icon why-slide__icon--tr icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-tr"></use>
+                        </svg>
+                      </span><span class="why-slide__icon why-slide__icon--br icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-br"></use>
+                        </svg>
+                      </span><span class="why-slide__icon why-slide__icon--bl icon">
+                        <svg fill="none" stroke="currentColor">
+                          <use href="/assets/images/icons.svg#corner-bl"></use>
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="slider__navigation slider-navigation slider-navigation--abs-bottom hidden-mobile" data-js-slider-navigation="">
+              <button class="slider-navigation__arrow-button slider-navigation__arrow-button--previous button" aria-label="Предыдущий слайд" title="Предыдущий слайд" type="button" data-js-slider-previous-button=""><span class="button__icon icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/assets/images/icons.svg#arrow-left"></use>
+                  </svg>
+                </span></button>
+              <button class="slider-navigation__arrow-button slider-navigation__arrow-button--next button" aria-label="Следующий слайд" title="Следующий слайд" type="button" data-js-slider-next-button=""><span class="button__icon icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/assets/images/icons.svg#arrow-right"></use>
+                  </svg>
+                </span></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="modifications slider-outside-arrows section container" aria-labelledby="modifications-title">
+        <header class="section__header false">
+          <div class="section__label"><span>Под ваш стиль</span></div>
+          <div class="section__title-wrapper">
+            <h2 class="section__title false" id="modifications-title">Варианты модификации печей и дополнительная комлектация Все модификации создаем на производстве. И даем гарантию 1 год.</h2>
+          </div>
+        </header>
+        <div class="section__body">
+          <div class="slider-inner modifications__slider-inner">
+            <div class="slider" data-js-slider="{&quot;sliderParams&quot;:{&quot;slidesPerView&quot;:3,&quot;slidesPerGroup&quot;:1,&quot;spaceBetween&quot;:20,&quot;allowTouchMove&quot;:true,&quot;breakpoints&quot;:{&quot;0&quot;:{&quot;slidesPerView&quot;:1,&quot;slidesPerGroup&quot;:1,&quot;spaceBetween&quot;:20,&quot;allowTouchMove&quot;:true,&quot;enabled&quot;:true},&quot;620&quot;:{&quot;slidesPerView&quot;:2,&quot;slidesPerGroup&quot;:1,&quot;spaceBetween&quot;:20,&quot;allowTouchMove&quot;:true,&quot;enabled&quot;:true},&quot;768&quot;:{&quot;slidesPerView&quot;:2,&quot;slidesPerGroup&quot;:1,&quot;spaceBetween&quot;:20,&quot;allowTouchMove&quot;:true,&quot;enabled&quot;:true},&quot;991&quot;:{&quot;slidesPerView&quot;:2,&quot;slidesPerGroup&quot;:1,&quot;spaceBetween&quot;:20,&quot;allowTouchMove&quot;:true,&quot;enabled&quot;:true},&quot;1260&quot;:{&quot;slidesPerView&quot;:3,&quot;slidesPerGroup&quot;:1,&quot;spaceBetween&quot;:20,&quot;allowTouchMove&quot;:true,&quot;enabled&quot;:true}}},&quot;navigationTargetElementId&quot;:&quot;modifications-slider-navigation&quot;}">
+              <div class="slider__swiper swiper" data-js-slider-swiper="">
+                <ul class="slider__list swiper-wrapper">
+                  <li class="slider__item swiper-slide">
+                    <article class="modifications__card">
+                      <div class="modifications__card-media">
+                        <img srcset="/assets/images/modification-320x253.png 320w, /assets/images/modification-400x316.png 400w, /assets/images/modification-640x506.png 640w, /assets/images/modification-800x632.png 800w, /assets/images/modification-1024x809.png 1024w, /assets/images/modification-1280x1011.png 1280w, /assets/images/modification-1340x1053.png 1340w" src="/assets/images/modification-1340x1053.png" sizes="(min-width: 1340px) 1340px, 100vw" width="1340" height="1053" alt="Печь ПКМ-гриль на ножках стандарт" decoding="async" loading="lazy" class="modifications__card-img"><span class="modifications__card-icon modifications__card-icon--tl icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-tl"></use>
+                          </svg>
+                        </span><span class="modifications__card-icon modifications__card-icon--tr icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-tr"></use>
+                          </svg>
+                        </span><span class="modifications__card-icon modifications__card-icon--br icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-br"></use>
+                          </svg>
+                        </span><span class="product-card__icon product-card__icon--bl icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-bl"></use>
+                          </svg>
+                        </span>
+                      </div>
+                      <h3 class="modifications__card-title h4">Печь ПКМ-гриль на ножках стандарт</h3>
+                    </article>
+                  </li>
+                  <li class="slider__item swiper-slide">
+                    <article class="modifications__card">
+                      <div class="modifications__card-media">
+                        <img srcset="/assets/images/modification-320x253.png 320w, /assets/images/modification-400x316.png 400w, /assets/images/modification-640x506.png 640w, /assets/images/modification-800x632.png 800w, /assets/images/modification-1024x809.png 1024w, /assets/images/modification-1280x1011.png 1280w, /assets/images/modification-1340x1053.png 1340w" src="/assets/images/modification-1340x1053.png" sizes="(min-width: 1340px) 1340px, 100vw" width="1340" height="1053" alt="Контролируемая высота пламяобразования - увеличенный ресурс дымохода" decoding="async" loading="lazy" class="modifications__card-img"><span class="modifications__card-icon modifications__card-icon--tl icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-tl"></use>
+                          </svg>
+                        </span><span class="modifications__card-icon modifications__card-icon--tr icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-tr"></use>
+                          </svg>
+                        </span><span class="modifications__card-icon modifications__card-icon--br icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-br"></use>
+                          </svg>
+                        </span><span class="product-card__icon product-card__icon--bl icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-bl"></use>
+                          </svg>
+                        </span>
+                      </div>
+                      <h3 class="modifications__card-title h4">Контролируемая высота пламяобразования - увеличенный ресурс дымохода</h3>
+                    </article>
+                  </li>
+                  <li class="slider__item swiper-slide">
+                    <article class="modifications__card">
+                      <div class="modifications__card-media">
+                        <img srcset="/assets/images/modification-320x253.png 320w, /assets/images/modification-400x316.png 400w, /assets/images/modification-640x506.png 640w, /assets/images/modification-800x632.png 800w, /assets/images/modification-1024x809.png 1024w, /assets/images/modification-1280x1011.png 1280w, /assets/images/modification-1340x1053.png 1340w" src="/assets/images/modification-1340x1053.png" sizes="(min-width: 1340px) 1340px, 100vw" width="1340" height="1053" alt="Дожиг обработанных газов, подача вторичного воздуха - высокая температура камней, легкий пар свыше 450 градусов" decoding="async" loading="lazy" class="modifications__card-img"><span class="modifications__card-icon modifications__card-icon--tl icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-tl"></use>
+                          </svg>
+                        </span><span class="modifications__card-icon modifications__card-icon--tr icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-tr"></use>
+                          </svg>
+                        </span><span class="modifications__card-icon modifications__card-icon--br icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-br"></use>
+                          </svg>
+                        </span><span class="product-card__icon product-card__icon--bl icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-bl"></use>
+                          </svg>
+                        </span>
+                      </div>
+                      <h3 class="modifications__card-title h4">Дожиг обработанных газов, подача вторичного воздуха - высокая температура камней, легкий пар свыше 450 градусов</h3>
+                    </article>
+                  </li>
+                  <li class="slider__item swiper-slide">
+                    <article class="modifications__card">
+                      <div class="modifications__card-media">
+                        <img srcset="/assets/images/modification-320x253.png 320w, /assets/images/modification-400x316.png 400w, /assets/images/modification-640x506.png 640w, /assets/images/modification-800x632.png 800w, /assets/images/modification-1024x809.png 1024w, /assets/images/modification-1280x1011.png 1280w, /assets/images/modification-1340x1053.png 1340w" src="/assets/images/modification-1340x1053.png" sizes="(min-width: 1340px) 1340px, 100vw" width="1340" height="1053" alt="Печь ПКМ-гриль на ножках стандарт" decoding="async" loading="lazy" class="modifications__card-img"><span class="modifications__card-icon modifications__card-icon--tl icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-tl"></use>
+                          </svg>
+                        </span><span class="modifications__card-icon modifications__card-icon--tr icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-tr"></use>
+                          </svg>
+                        </span><span class="modifications__card-icon modifications__card-icon--br icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-br"></use>
+                          </svg>
+                        </span><span class="product-card__icon product-card__icon--bl icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-bl"></use>
+                          </svg>
+                        </span>
+                      </div>
+                      <h3 class="modifications__card-title h4">Печь ПКМ-гриль на ножках стандарт</h3>
+                    </article>
+                  </li>
+                  <li class="slider__item swiper-slide">
+                    <article class="modifications__card">
+                      <div class="modifications__card-media">
+                        <img srcset="/assets/images/modification-320x253.png 320w, /assets/images/modification-400x316.png 400w, /assets/images/modification-640x506.png 640w, /assets/images/modification-800x632.png 800w, /assets/images/modification-1024x809.png 1024w, /assets/images/modification-1280x1011.png 1280w, /assets/images/modification-1340x1053.png 1340w" src="/assets/images/modification-1340x1053.png" sizes="(min-width: 1340px) 1340px, 100vw" width="1340" height="1053" alt="Контролируемая высота пламяобразования - увеличенный ресурс дымохода" decoding="async" loading="lazy" class="modifications__card-img"><span class="modifications__card-icon modifications__card-icon--tl icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-tl"></use>
+                          </svg>
+                        </span><span class="modifications__card-icon modifications__card-icon--tr icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-tr"></use>
+                          </svg>
+                        </span><span class="modifications__card-icon modifications__card-icon--br icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-br"></use>
+                          </svg>
+                        </span><span class="product-card__icon product-card__icon--bl icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-bl"></use>
+                          </svg>
+                        </span>
+                      </div>
+                      <h3 class="modifications__card-title h4">Контролируемая высота пламяобразования - увеличенный ресурс дымохода</h3>
+                    </article>
+                  </li>
+                  <li class="slider__item swiper-slide">
+                    <article class="modifications__card">
+                      <div class="modifications__card-media">
+                        <img srcset="/assets/images/modification-320x253.png 320w, /assets/images/modification-400x316.png 400w, /assets/images/modification-640x506.png 640w, /assets/images/modification-800x632.png 800w, /assets/images/modification-1024x809.png 1024w, /assets/images/modification-1280x1011.png 1280w, /assets/images/modification-1340x1053.png 1340w" src="/assets/images/modification-1340x1053.png" sizes="(min-width: 1340px) 1340px, 100vw" width="1340" height="1053" alt="Печь ПКМ-гриль на ножках стандарт" decoding="async" loading="lazy" class="modifications__card-img"><span class="modifications__card-icon modifications__card-icon--tl icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-tl"></use>
+                          </svg>
+                        </span><span class="modifications__card-icon modifications__card-icon--tr icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-tr"></use>
+                          </svg>
+                        </span><span class="modifications__card-icon modifications__card-icon--br icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-br"></use>
+                          </svg>
+                        </span><span class="product-card__icon product-card__icon--bl icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-bl"></use>
+                          </svg>
+                        </span>
+                      </div>
+                      <h3 class="modifications__card-title h4">Печь ПКМ-гриль на ножках стандарт</h3>
+                    </article>
+                  </li>
+                  <li class="slider__item swiper-slide">
+                    <article class="modifications__card">
+                      <div class="modifications__card-media">
+                        <img srcset="/assets/images/modification-320x253.png 320w, /assets/images/modification-400x316.png 400w, /assets/images/modification-640x506.png 640w, /assets/images/modification-800x632.png 800w, /assets/images/modification-1024x809.png 1024w, /assets/images/modification-1280x1011.png 1280w, /assets/images/modification-1340x1053.png 1340w" src="/assets/images/modification-1340x1053.png" sizes="(min-width: 1340px) 1340px, 100vw" width="1340" height="1053" alt="Дожиг обработанных газов, подача вторичного воздуха - высокая температура камней, легкий пар свыше 450 градусов" decoding="async" loading="lazy" class="modifications__card-img"><span class="modifications__card-icon modifications__card-icon--tl icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-tl"></use>
+                          </svg>
+                        </span><span class="modifications__card-icon modifications__card-icon--tr icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-tr"></use>
+                          </svg>
+                        </span><span class="modifications__card-icon modifications__card-icon--br icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-br"></use>
+                          </svg>
+                        </span><span class="product-card__icon product-card__icon--bl icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-bl"></use>
+                          </svg>
+                        </span>
+                      </div>
+                      <h3 class="modifications__card-title h4">Дожиг обработанных газов, подача вторичного воздуха - высокая температура камней, легкий пар свыше 450 градусов</h3>
+                    </article>
+                  </li>
+                  <li class="slider__item swiper-slide">
+                    <article class="modifications__card">
+                      <div class="modifications__card-media">
+                        <img srcset="/assets/images/modification-320x253.png 320w, /assets/images/modification-400x316.png 400w, /assets/images/modification-640x506.png 640w, /assets/images/modification-800x632.png 800w, /assets/images/modification-1024x809.png 1024w, /assets/images/modification-1280x1011.png 1280w, /assets/images/modification-1340x1053.png 1340w" src="/assets/images/modification-1340x1053.png" sizes="(min-width: 1340px) 1340px, 100vw" width="1340" height="1053" alt="Контролируемая высота пламяобразования - увеличенный ресурс дымохода" decoding="async" loading="lazy" class="modifications__card-img"><span class="modifications__card-icon modifications__card-icon--tl icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-tl"></use>
+                          </svg>
+                        </span><span class="modifications__card-icon modifications__card-icon--tr icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-tr"></use>
+                          </svg>
+                        </span><span class="modifications__card-icon modifications__card-icon--br icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-br"></use>
+                          </svg>
+                        </span><span class="product-card__icon product-card__icon--bl icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-bl"></use>
+                          </svg>
+                        </span>
+                      </div>
+                      <h3 class="modifications__card-title h4">Контролируемая высота пламяобразования - увеличенный ресурс дымохода</h3>
+                    </article>
+                  </li>
+                  <li class="slider__item swiper-slide">
+                    <article class="modifications__card">
+                      <div class="modifications__card-media">
+                        <img srcset="/assets/images/modification-320x253.png 320w, /assets/images/modification-400x316.png 400w, /assets/images/modification-640x506.png 640w, /assets/images/modification-800x632.png 800w, /assets/images/modification-1024x809.png 1024w, /assets/images/modification-1280x1011.png 1280w, /assets/images/modification-1340x1053.png 1340w" src="/assets/images/modification-1340x1053.png" sizes="(min-width: 1340px) 1340px, 100vw" width="1340" height="1053" alt="Печь ПКМ-гриль на ножках стандарт" decoding="async" loading="lazy" class="modifications__card-img"><span class="modifications__card-icon modifications__card-icon--tl icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-tl"></use>
+                          </svg>
+                        </span><span class="modifications__card-icon modifications__card-icon--tr icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-tr"></use>
+                          </svg>
+                        </span><span class="modifications__card-icon modifications__card-icon--br icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-br"></use>
+                          </svg>
+                        </span><span class="product-card__icon product-card__icon--bl icon">
+                          <svg fill="none" stroke="currentColor">
+                            <use href="/assets/images/icons.svg#corner-bl"></use>
+                          </svg>
+                        </span>
+                      </div>
+                      <h3 class="modifications__card-title h4">Печь ПКМ-гриль на ножках стандарт</h3>
+                    </article>
+                  </li>
+                </ul>
+              </div>
+              <div class="slider__scrollbar" data-js-slider-scrollbar=""></div>
+            </div>
+            <div class="slider-navigation slider-navigation--outside" id="modifications-slider-navigation" data-js-slider-navigation="">
+              <button class="slider-navigation__arrow-button slider-navigation__arrow-button--previous button" aria-label="Предыдущий слайд" title="Предыдущий слайд" type="button" data-js-slider-previous-button=""><span class="button__icon icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/assets/images/icons.svg#arrow-left"></use>
+                  </svg>
+                </span></button>
+              <button class="slider-navigation__arrow-button slider-navigation__arrow-button--next button" aria-label="Следующий слайд" title="Следующий слайд" type="button" data-js-slider-next-button=""><span class="button__icon icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/assets/images/icons.svg#arrow-right"></use>
+                  </svg>
+                </span></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contacts" aria-labelledby="contacts-title">
+        <div class="contacts__inner container">
+          <div class="contacts__form-block">
+            <h2 class="section__title">Контакты</h2><span class="contacts__text">Напишите нам, и мы свяжемся с вами как можно скорее.</span>
+            <form class="form" action="">
+              <div class="form__cell field">
+                <label for="ваше-имя" class="field__label">Ваше имя</label>
+                <div class="field__body">
+                  <input class="field__control" id="ваше-имя" placeholder="Ваше имя" required="">
+                </div>
+              </div>
+              <div class="form__cell field">
+                <label for="contactsForm" class="field__label">Ваш телефон</label>
+                <div class="field__body">
+                  <input class="field__control" id="contactsForm" placeholder="Ваш телефон" required="" inputMode="tel" data-js-input-mask="+7 (000) 000-00-00">
+                </div>
+              </div>
+              <div class="form__cell field">
+                <label for="ваше-сообщение" class="field__label">Ваше сообщение</label>
+                <div class="field__body">
+                  <textarea class="field__control" id="ваше-сообщение" type="textarea" placeholder="Ваше сообщение" required=""></textarea>
+                </div>
+              </div>
+              <div class="form__cell form__cell--wide form__cell--actions">
+                <label class="form__agreement checkbox" for="contactsCheckboxId">
+                  <input class="checkbox__input" type="checkbox" id="contactsCheckboxId" required=""><span class="checkbox__label">Согласен на обработку<!-- -->
+                    <a class="accent" href="/privacy" target="_blank" rel="noopener noreferrer">персональных данных</a>
+                  </span>
+                </label>
+                <button class="form__submit-button button button--red" type="submit"><span class="button__label">Отправить</span></button>
+              </div>
+            </form>
+          </div>
+          <address class="contacts__address">
+            <div class="contacts__address-main">
+              <button class="contacts__email h3" type="button" data-js-copy="bashpechi@yandex.ru" data-copy-success="Email скопирован">bashpechi@yandex.ru</button>
+              <a class="contacts__phone h3" href="tel:+73472662316">+7 (347) 266 23 16</a>
+            </div>
+            <div class="contacts__soc1als">
+              <a class="contacts__soc1als-link h3 contacts__soc1als-link--tg"><span class="contacts__soc1als-icon icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/assets/images/icons.svg#telegram"></use>
+                  </svg>
+                </span><span class="contacts__soc1als-label">Телеграм</span></a>
+              <a class="contacts__soc1als-link h3 contacts__soc1als-link--ytb"><span class="contacts__soc1als-icon icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/assets/images/icons.svg#youtube"></use>
+                  </svg>
+                </span><span class="contacts__soc1als-label">YouTube</span></a>
+              <a class="contacts__soc1als-link h3 contacts__soc1als-link--wts"><span class="contacts__soc1als-icon icon">
+                  <svg fill="currentColor" stroke="none">
+                    <use href="/assets/images/icons.svg#whatsapp"></use>
+                  </svg>
+                </span><span class="contacts__soc1als-label">Вотсап</span></a>
+              <a class="contacts__soc1als-link h3 contacts__soc1als-link--vk"><span class="contacts__soc1als-icon icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/assets/images/icons.svg#vk"></use>
+                  </svg>
+                </span><span class="contacts__soc1als-label">ВК</span></a>
+            </div>
+          </address>
+        </div>
+      </section>
+      <section class="news section container section--with-page-link" aria-labelledby="news-title">
+        <header class="section__header false">
+          <div class="section__label"><span>Актуальное</span></div>
+          <div class="section__title-wrapper">
+            <h2 class="section__title false" id="news-title">Новости и акции</h2>
+            <a href="/news" class="section__page-link hidden-mobile">Смотреть все</a>
+          </div>
+        </header>
+        <div class="section__body">
+          <div class="news__list">
+            <article class="news__card-wrapper">
+              <a href="/bashpechi/sauny" class="news__card">
+                <div class="news__card-media">
+                  <img srcset="/assets/images/sauny-320x182.png 320w, /assets/images/sauny-400x228.png 400w, /assets/images/sauny-640x365.png 640w, /assets/images/sauny-720x414.png 720w" src="/assets/images/sauny-720x414.png" sizes="(min-width: 720px) 720px, 100vw" width="720" height="414" alt="Подбираем освещение для бани и сауны" decoding="async" loading="lazy">
+                </div>
+                <div class="news__card-body">
+                  <h3 class="news__card-title h4">Подбираем освещение для бани и сауны</h3>
+                  <p class="news__card-text">Сегодня существует несколько видов банных печей, каждая из которых имеет свои особенности.</p>
+                </div>
+              </a>
+            </article>
+            <article class="news__card-wrapper">
+              <a href="/bashpechi/otlichie" class="news__card">
+                <div class="news__card-media">
+                  <img srcset="/assets/images/otlichie-320x211.png 320w, /assets/images/otlichie-400x264.png 400w, /assets/images/otlichie-640x422.png 640w, /assets/images/otlichie-720x474.png 720w" src="/assets/images/otlichie-720x474.png" sizes="(min-width: 720px) 720px, 100vw" width="720" height="474" alt="Вопрос от клиента: Чем отличается баня от сауны" decoding="async" loading="lazy">
+                </div>
+                <div class="news__card-body">
+                  <h3 class="news__card-title h4">Вопрос от клиента: Чем отличается баня от сауны</h3>
+                  <p class="news__card-text">Сегодня существует несколько видов банных печей, каждая из которых имеет свои особенности.</p>
+                </div>
+              </a>
+            </article>
+            <article class="news__card-wrapper">
+              <a href="/bashpechi/vidy" class="news__card">
+                <div class="news__card-media">
+                  <img srcset="/assets/images/vidy-320x237.png 320w, /assets/images/vidy-400x296.png 400w, /assets/images/vidy-640x474.png 640w, /assets/images/vidy-720x534.png 720w" src="/assets/images/vidy-720x534.png" sizes="(min-width: 720px) 720px, 100vw" width="720" height="534" alt="Виды печей для бани: что лучше выбрать" decoding="async" loading="lazy">
+                </div>
+                <div class="news__card-body">
+                  <h3 class="news__card-title h4">Виды печей для бани: что лучше выбрать</h3>
+                  <p class="news__card-text">Сегодня существует несколько видов банных печей, каждая из которых имеет свои особенности.</p>
+                </div>
+              </a>
+            </article>
+            <article class="news__card-wrapper">
+              <a href="/bashpechi/skidki" class="news__card">
+                <div class="news__card-media">
+                  <img srcset="/assets/images/skidki-320x237.png 320w, /assets/images/skidki-400x296.png 400w, /assets/images/skidki-640x474.png 640w, /assets/images/skidki-720x534.png 720w" src="/assets/images/skidki-720x534.png" sizes="(min-width: 720px) 720px, 100vw" width="720" height="534" alt="Скидки на чугунные комплектующие для печей" decoding="async" loading="lazy">
+                </div>
+                <div class="news__card-body">
+                  <h3 class="news__card-title h4">Скидки на чугунные комплектующие для печей</h3>
+                  <p class="news__card-text">Сегодня существует несколько видов банных печей, каждая из которых имеет свои особенности.</p>
+                </div>
+              </a>
+            </article>
+          </div>
+          <a class="more-button visible-mobile button button--white" href="/news"><span class="button__label">Смотреть еще</span></a>
+        </div>
+      </section>
+      <section class="reviews slider-outside-arrows section container section--with-page-link" aria-labelledby="reviews-title">
+        <header class="section__header false">
+          <div class="section__label"><span>Ваше мнение о нас</span></div>
+          <div class="section__title-wrapper">
+            <h2 class="section__title false" id="reviews-title">Отзывы</h2>
+            <a href="/reviews" class="section__page-link hidden-mobile">Смотреть все отзывы</a>
+          </div>
+        </header>
+        <div class="section__body">
+          <div class="slider-inner reviews__slider-inner">
+            <div class="slider" data-js-slider="{&quot;sliderParams&quot;:{&quot;slidesPerView&quot;:&quot;auto&quot;,&quot;spaceBetween&quot;:20,&quot;autoHeight&quot;:true,&quot;allowTouchMove&quot;:true,&quot;breakpoints&quot;:{&quot;0&quot;:{&quot;slidesPerView&quot;:&quot;auto&quot;,&quot;spaceBetween&quot;:20,&quot;allowTouchMove&quot;:true,&quot;autoHeight&quot;:true,&quot;enabled&quot;:true},&quot;481&quot;:{&quot;slidesPerView&quot;:&quot;auto&quot;,&quot;spaceBetween&quot;:20,&quot;allowTouchMove&quot;:true,&quot;autoHeight&quot;:true,&quot;enabled&quot;:true},&quot;768&quot;:{&quot;slidesPerView&quot;:&quot;auto&quot;,&quot;spaceBetween&quot;:20,&quot;allowTouchMove&quot;:true,&quot;autoHeight&quot;:false,&quot;enabled&quot;:true},&quot;991&quot;:{&quot;slidesPerView&quot;:&quot;auto&quot;,&quot;spaceBetween&quot;:20,&quot;allowTouchMove&quot;:true,&quot;autoHeight&quot;:false,&quot;enabled&quot;:true},&quot;1260&quot;:{&quot;slidesPerView&quot;:&quot;auto&quot;,&quot;spaceBetween&quot;:20,&quot;allowTouchMove&quot;:true,&quot;autoHeight&quot;:false,&quot;enabled&quot;:true}}},&quot;navigationTargetElementId&quot;:&quot;reviews-slider-navigation&quot;}">
+              <div class="slider__swiper swiper" data-js-slider-swiper="">
+                <ul class="slider__list swiper-wrapper">
+                  <li class="slider__item swiper-slide">
+                    <article class="review-card" data-js-photoswipe="&quot;children: \&quot;a\&quot;, zoom: true, wheelToZoom: true&quot;" aria-label="Отзыв">
+                      <div class="review-card__aside">
+                        <div class="review-card__avatar" aria-hidden="true">
+                          <img srcset="/assets/images/2gis-76x76.png 76w" src="/assets/images/2gis-76x76.png" sizes="(min-width: 76px) 76px, 100vw" width="76" height="76" alt="Логотип отзовика" decoding="async" loading="lazy">
+                        </div><span class="review-card__index" aria-label="1 из 9">1 / 9</span>
+                      </div>
+                      <div class="review-card__body">
+                        <div class="review-card__content">
+                          <p class="review-card__text">Приобрели смокер ! Пользуемся второй сезон! Качество на 5+, практичность на 5+ ! Свои функции выполняет на 100%. Спасибо ребятам! Золотые руки у Вас!</p>
+                        </div><span class="review-card__name">Ева Стоянова</span>
+                      </div>
+                    </article>
+                  </li>
+                  <li class="slider__item swiper-slide">
+                    <article class="review-card" data-js-photoswipe="&quot;children: \&quot;a\&quot;, zoom: true, wheelToZoom: true&quot;" aria-label="Отзыв">
+                      <div class="review-card__aside">
+                        <div class="review-card__avatar" aria-hidden="true">
+                          <img srcset="/assets/images/yandex-76x76.png 76w" src="/assets/images/yandex-76x76.png" sizes="(min-width: 76px) 76px, 100vw" width="76" height="76" alt="Логотип отзовика" decoding="async" loading="lazy">
+                        </div><span class="review-card__index" aria-label="2 из 9">2 / 9</span>
+                      </div>
+                      <div class="review-card__body">
+                        <div class="review-card__content">
+                          <p class="review-card__text">Компания отличная, качественная продукция, вежливый персонал.Очень довольна,что обратилась в данную организацию</p>
+                        </div><span class="review-card__name">Екатерина Огребова</span>
+                      </div>
+                    </article>
+                  </li>
+                  <li class="slider__item swiper-slide">
+                    <article class="review-card review-card--photo" data-js-photoswipe="&quot;children: \&quot;a\&quot;, zoom: true, wheelToZoom: true&quot;" aria-label="Отзыв">
+                      <div class="review-card__aside">
+                        <div class="review-card__avatar" aria-hidden="true"><span class="review-card__avatar-name">ВА</span></div><span class="review-card__index" aria-label="3 из 9">3 / 9</span>
+                      </div>
+                      <div class="review-card__body">
+                        <div class="review-card__content">
+                          <p class="review-card__text">Заказывал у компании печь для бани, остался очень доволен. Сделали всё аккуратно, по моим размерам, объяснили, как лучше установить и пользоваться. Печь греет отлично, пар держит ровно, баня теперь прогревается быстро. Видно, что люди действительно разбираются в своём деле.</p>
+                        </div><span class="review-card__name">Василевский Андрей</span>
+                      </div>
+                      <a class="review-card__shot" href="/src/assets/images/reviews/review.png" target="_blank" rel="noopener" aria-label="Открыть скриншот отзыва">
+                        <img srcset="/assets/images/review-320x480.png 320w, /assets/images/review-400x600.png 400w, /assets/images/review-600x897.png 600w" src="/assets/images/review-600x897.png" sizes="(min-width: 600px) 600px, 100vw" width="600" height="897" alt="Открыть фотографию отзыва" decoding="async" loading="lazy">
+                      </a>
+                    </article>
+                  </li>
+                  <li class="slider__item swiper-slide">
+                    <article class="review-card review-card--photo" data-js-photoswipe="&quot;children: \&quot;a\&quot;, zoom: true, wheelToZoom: true&quot;" aria-label="Отзыв">
+                      <div class="review-card__aside">
+                        <div class="review-card__avatar" aria-hidden="true"><span class="review-card__avatar-name">ВА</span></div><span class="review-card__index" aria-label="4 из 9">4 / 9</span>
+                      </div>
+                      <div class="review-card__body">
+                        <div class="review-card__content">
+                          <p class="review-card__text">Приобрели смокер ! Пользуемся второй сезон! Качество на 5+, практичность на 5+ ! Свои функции выполняет на 100%. Спасибо ребятам! Золотые руки у Вас!</p>
+                        </div><span class="review-card__name">Василевский Андрей</span>
+                      </div>
+                      <a class="review-card__shot" href="/src/assets/images/reviews/review.png" target="_blank" rel="noopener" aria-label="Открыть скриншот отзыва">
+                        <img srcset="/assets/images/review-320x480.png 320w, /assets/images/review-400x600.png 400w, /assets/images/review-600x897.png 600w" src="/assets/images/review-600x897.png" sizes="(min-width: 600px) 600px, 100vw" width="600" height="897" alt="Открыть фотографию отзыва" decoding="async" loading="lazy">
+                      </a>
+                    </article>
+                  </li>
+                  <li class="slider__item swiper-slide">
+                    <article class="review-card" data-js-photoswipe="&quot;children: \&quot;a\&quot;, zoom: true, wheelToZoom: true&quot;" aria-label="Отзыв">
+                      <div class="review-card__aside">
+                        <div class="review-card__avatar" aria-hidden="true">
+                          <img srcset="/assets/images/2gis-76x76.png 76w" src="/assets/images/2gis-76x76.png" sizes="(min-width: 76px) 76px, 100vw" width="76" height="76" alt="Логотип отзовика" decoding="async" loading="lazy">
+                        </div><span class="review-card__index" aria-label="5 из 9">5 / 9</span>
+                      </div>
+                      <div class="review-card__body">
+                        <div class="review-card__content">
+                          <p class="review-card__text">Компания отличная, качественная продукция, вежливый персонал.Очень довольна,что обратилась в данную организацию</p>
+                        </div><span class="review-card__name">Ева Стоянова</span>
+                      </div>
+                    </article>
+                  </li>
+                  <li class="slider__item swiper-slide">
+                    <article class="review-card" data-js-photoswipe="&quot;children: \&quot;a\&quot;, zoom: true, wheelToZoom: true&quot;" aria-label="Отзыв">
+                      <div class="review-card__aside">
+                        <div class="review-card__avatar" aria-hidden="true">
+                          <img srcset="/assets/images/yandex-76x76.png 76w" src="/assets/images/yandex-76x76.png" sizes="(min-width: 76px) 76px, 100vw" width="76" height="76" alt="Логотип отзовика" decoding="async" loading="lazy">
+                        </div><span class="review-card__index" aria-label="6 из 9">6 / 9</span>
+                      </div>
+                      <div class="review-card__body">
+                        <div class="review-card__content">
+                          <p class="review-card__text">Приобрели смокер ! Пользуемся второй сезон! Качество на 5+, практичность на 5+ ! Свои функции выполняет на 100%. Спасибо ребятам! Золотые руки у Вас!</p>
+                        </div><span class="review-card__name">Василевский Андрей</span>
+                      </div>
+                    </article>
+                  </li>
+                  <li class="slider__item swiper-slide">
+                    <article class="review-card" data-js-photoswipe="&quot;children: \&quot;a\&quot;, zoom: true, wheelToZoom: true&quot;" aria-label="Отзыв">
+                      <div class="review-card__aside">
+                        <div class="review-card__avatar" aria-hidden="true"><span class="review-card__avatar-name">ВА</span></div><span class="review-card__index" aria-label="7 из 9">7 / 9</span>
+                      </div>
+                      <div class="review-card__body">
+                        <div class="review-card__content">
+                          <p class="review-card__text">Компания отличная, качественная продукция, вежливый персонал.Очень довольна,что обратилась в данную организацию</p>
+                        </div><span class="review-card__name">Екатерина Огребова</span>
+                      </div>
+                    </article>
+                  </li>
+                  <li class="slider__item swiper-slide">
+                    <article class="review-card review-card--photo" data-js-photoswipe="&quot;children: \&quot;a\&quot;, zoom: true, wheelToZoom: true&quot;" aria-label="Отзыв">
+                      <div class="review-card__aside">
+                        <div class="review-card__avatar" aria-hidden="true">
+                          <img srcset="/assets/images/2gis-76x76.png 76w" src="/assets/images/2gis-76x76.png" sizes="(min-width: 76px) 76px, 100vw" width="76" height="76" alt="Логотип отзовика" decoding="async" loading="lazy">
+                        </div><span class="review-card__index" aria-label="8 из 9">8 / 9</span>
+                      </div>
+                      <div class="review-card__body">
+                        <div class="review-card__content">
+                          <p class="review-card__text">Заказывал у компании печь для бани, остался очень доволен. Сделали всё аккуратно, по моим размерам, объяснили, как лучше установить и пользоваться. Печь греет отлично, пар держит ровно, баня теперь прогревается быстро. bВидно, что люди действительно разбираются в своём деле.</p>
+                        </div><span class="review-card__name">Ева Стоянова</span>
+                      </div>
+                      <a class="review-card__shot" href="/src/assets/images/reviews/review.png" target="_blank" rel="noopener" aria-label="Открыть скриншот отзыва">
+                        <img srcset="/assets/images/review-320x480.png 320w, /assets/images/review-400x600.png 400w, /assets/images/review-600x897.png 600w" src="/assets/images/review-600x897.png" sizes="(min-width: 600px) 600px, 100vw" width="600" height="897" alt="Открыть фотографию отзыва" decoding="async" loading="lazy">
+                      </a>
+                    </article>
+                  </li>
+                  <li class="slider__item swiper-slide">
+                    <article class="review-card" data-js-photoswipe="&quot;children: \&quot;a\&quot;, zoom: true, wheelToZoom: true&quot;" aria-label="Отзыв">
+                      <div class="review-card__aside">
+                        <div class="review-card__avatar" aria-hidden="true"><span class="review-card__avatar-name">ВА</span></div><span class="review-card__index" aria-label="9 из 9">9 / 9</span>
+                      </div>
+                      <div class="review-card__body">
+                        <div class="review-card__content">
+                          <p class="review-card__text">Приобрели смокер ! Пользуемся второй сезон! Качество на 5+, практичность на 5+ ! Свои функции выполняет на 100%. Спасибо ребятам! Золотые руки у Вас!</p>
+                        </div><span class="review-card__name">Екатерина Огребова</span>
+                      </div>
+                    </article>
+                  </li>
+                </ul>
+              </div>
+              <div class="slider__scrollbar" data-js-slider-scrollbar=""></div>
+            </div>
+            <div class="slider-navigation slider-navigation--outside" id="reviews-slider-navigation" data-js-slider-navigation="">
+              <button class="slider-navigation__arrow-button slider-navigation__arrow-button--previous button" aria-label="Предыдущий слайд" title="Предыдущий слайд" type="button" data-js-slider-previous-button=""><span class="button__icon icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/assets/images/icons.svg#arrow-left"></use>
+                  </svg>
+                </span></button>
+              <button class="slider-navigation__arrow-button slider-navigation__arrow-button--next button" aria-label="Следующий слайд" title="Следующий слайд" type="button" data-js-slider-next-button=""><span class="button__icon icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/assets/images/icons.svg#arrow-right"></use>
+                  </svg>
+                </span></button>
+            </div>
+          </div>
+          <a class="more-button visible-mobile button button--white" href="/reviews"><span class="button__label">Смотреть все товары</span></a>
+        </div>
+      </section>
+      <div data-js-modal-notify="callback-window" class="modal">
+        <div class="modal__dialog" data-js-modal-notify-dialog="callback-window">
+          <header class="modal__header">
+            <h3 class="modal__title h4">Заказать звонок</h3>
+            <button class="modal__close-button button button--transparent" aria-label="Закрыть модальное окно" title="Закрыть модальное окно" type="button" data-js-modal-notify-close="callback-window"><span class="button__icon icon">
+                <svg fill="currentColor" stroke="none">
+                  <use href="/assets/images/icons.svg#close"></use>
+                </svg>
+              </span></button>
+          </header>
+          <form class="modal__form form" action="" method="POST">
+            <div class="form__cell field">
+              <label for="modalPersonName" class="field__label">Ваше имя</label>
+              <div class="field__body">
+                <input class="field__control" id="modalPersonName" placeholder="Имя" required="">
+              </div>
+            </div>
+            <div class="form__cell field">
+              <label for="modalCallbackPhone" class="field__label">Ваш телефон</label>
+              <div class="field__body">
+                <input class="field__control" id="modalCallbackPhone" placeholder="+7 ( )" required="" inputMode="tel" data-js-input-mask="+7 (000) 000-00-00">
+              </div>
+            </div>
+            <div class="form__cell field">
+              <label for="ваше-сообщение" class="field__label">Ваше сообщение</label>
+              <div class="field__body">
+                <textarea class="field__control" id="ваше-сообщение" type="textarea" placeholder="Ваше сообщение" required=""></textarea>
+              </div>
+            </div>
+            <div class="form__cell form__cell--wide form__cell--actions">
+              <label class="form__agreement checkbox" for="checkbox-callback-window">
+                <input class="checkbox__input" type="checkbox" id="checkbox-callback-window" required=""><span class="checkbox__label">Согласен на обработку <span class="accent">персональных данных</span></span>
+              </label>
+              <button class="form__submit-button button button--red" type="submit"><span class="button__label">Отправить</span></button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__inner container">
+        <nav class="footer__menu">
+          <div class="footer__menu-column">
+            <h4 class="footer__menu-title h6">О нас</h4>
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <a href="/bashpechi/documents" class="footer__menu-link">Документы</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="/bashpechi/reviews" class="footer__menu-link">Отзывы</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="/bashpechi/works" class="footer__menu-link">Работы</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="/bashpechi/dealer" class="footer__menu-link">Дилерам</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="/bashpechi/details" class="footer__menu-link">Реквизиты</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__menu-column">
+            <h4 class="footer__menu-title h6">Услуги</h4>
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <a href="/bashpechi/serv1" class="footer__menu-link">Сварка любых металлоконструкций</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="/bashpechi/serv2" class="footer__menu-link">Резка (рубка) металла</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="/bashpechi/serv3" class="footer__menu-link">Плазменная резка ЧПУ</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="/bashpechi/serv4" class="footer__menu-link">Выезд замерщика</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="/bashpechi/serv5" class="footer__menu-link">Монтаж и установка печей «под ключ»</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__menu-column">
+            <h4 class="footer__menu-title h6">Каталог</h4>
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <a href="/bashpechi/cat1" class="footer__menu-link">Печи</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="/bashpechi/cat2" class="footer__menu-link">Мангалы, Грили, Смокеры</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="/bashpechi/cat3" class="footer__menu-link">Баки для воды</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="/bashpechi/cat4" class="footer__menu-link">Одноконтурные дымоходы</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="/bashpechi/cat5" class="footer__menu-link">Двухконтурные дымоходы</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__menu-column">
+            <h4 class="footer__menu-title h6">Полезное</h4>
+            <ul class="footer__menu-list">
+              <li class="footer__menu-item">
+                <a href="/bashpechi/sales" class="footer__menu-link">Акции</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="/bashpechi/news" class="footer__menu-link">Статьи</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="/bashpechi/delivery" class="footer__menu-link">Доставка</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="/bashpechi/pay" class="footer__menu-link">Оплата</a>
+              </li>
+              <li class="footer__menu-item">
+                <a href="/bashpechi/oferta" class="footer__menu-link">Оферта</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <address class="footer__contacts">
+          <h4 class="footer__contacts-title h6">Контакты</h4>
+          <div class="footer__contacts-list">
+            <a class="footer__contacts-link footer__company-phone" href="tel:+7-351-777-80-90">+7 (347) 266 23 16</a>
+            <a class="footer__contacts-link footer__company-mail" href="mailto:bashpechi@yandex.ru">bashpechi@yandex.ru</a>
+            <a class="footer__contacts-link footer__company-whatsapp" href="https://www.whatsapp.com">Вотсап</a>
+            <a class="footer__contacts-link footer__company-telegram" href="https://www.telegram.com">Телеграм</a>
+            <div class="footer__contacts-socials">
+              <div class="soc1als">
+                <ul class="soc1als__list">
+                  <li class="soc1als__item">
+                    <a class="soc1als__link button" aria-label="Мы в ВКонтакте" title="Мы в ВКонтакте" href="vk.com" target="_blank"><span class="button__icon icon">
+                        <svg fill="currentColor" stroke="none">
+                          <use href="/assets/images/icons.svg#vk"></use>
+                        </svg>
+                      </span></a>
+                  </li>
+                  <li class="soc1als__item">
+                    <a class="soc1als__link button" aria-label="Мы в YouTube" title="Мы в YouTube" href="youtube.com" target="_blank"><span class="button__icon icon">
+                        <svg fill="currentColor" stroke="none">
+                          <use href="/assets/images/icons.svg#youtube"></use>
+                        </svg>
+                      </span></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </address>
+        <div class="footer__others">
+          <div class="footer__pay-services"><span class="button__icon icon" aria-label="VISA" style="aspect-ratio:45 / 15">
+              <svg fill="currentColor" stroke="none">
+                <use href="/assets/images/icons.svg#visa"></use>
+              </svg>
+            </span><span class="button__icon icon" aria-label="МИР" style="aspect-ratio:55 / 15">
+              <svg fill="currentColor" stroke="none">
+                <use href="/assets/images/icons.svg#mir"></use>
+              </svg>
+            </span><span class="button__icon icon" aria-label="Union" style="aspect-ratio:25 / 15">
+              <svg fill="currentColor" stroke="none">
+                <use href="/assets/images/icons.svg#union"></use>
+              </svg>
+            </span></div>
+          <p class="footer__name"><span>Башпечи</span><span>Все права защищены©2025</span></p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
