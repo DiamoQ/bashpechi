@@ -16,7 +16,11 @@
       <div class="header__inner container">
         <div class="header__inner-top">
           <div class="header__points">
-            <div class="header__points-label">Большеустикинское</div>
+            <button class="button__icon header__points-label button button--transparent" type="button" data-js-modal-notify-button="choose-city-window"><span class="button__label" data-js-city-current="">Большеустикинское</span><span class="button__icon icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/bashpechi/assets/images/icons.svg#city-arrow"></use>
+                </svg>
+              </span></button>
             <div class="header__points-info">
               <div class="header__points-cities"><span class="button__icon icon">
                   <svg fill="none" stroke="currentColor">
@@ -147,7 +151,11 @@
             <button class="header__button-call button button--white" type="button" data-js-modal-notify-button="callback-window"><span class="button__label">Заказать звонок</span></button>
           </div>
           <dialog class="header__overlay-menu-dialog" data-js-overlay-menu-dialog="">
-            <div class="header__points-label">Большеустикинское</div>
+            <button class="button__icon header__points-label button button--transparent" type="button" data-js-modal-notify-button="choose-city-window"><span class="button__label" data-js-city-current="">Большеустикинское</span><span class="button__icon icon">
+                <svg fill="none" stroke="currentColor">
+                  <use href="/bashpechi/assets/images/icons.svg#city-arrow"></use>
+                </svg>
+              </span></button>
             <nav class="header__overlay-navigation">
               <ul class="header__menu-list header__menu-list--main">
                 <li class="header__menu-item">
@@ -1620,6 +1628,129 @@
               <button class="form__submit-button button button--red" type="submit"><span class="button__label">Отправить</span></button>
             </div>
           </form>
+        </div>
+      </div>
+      <div data-js-modal-notify="choose-city-window" class="modal choose-city-modal">
+        <div class="modal__dialog" data-js-modal-notify-dialog="choose-city-window">
+          <header class="modal__header">
+            <h3 class="modal__title h4">Выберите ваш город</h3>
+            <button class="modal__close-button button button--transparent" aria-label="Закрыть модальное окно" title="Закрыть модальное окно" type="button" data-js-modal-notify-close="choose-city-window"><span class="button__icon icon">
+                <svg fill="currentColor" stroke="none">
+                  <use href="/bashpechi/assets/images/icons.svg#close"></use>
+                </svg>
+              </span></button>
+          </header>
+          <form id="chooseCitySearch" class="search choose-city-modal__search">
+            <label for="chooseCitySearch">Поиск
+              <input type="text" name="searchCity" id="chooseCitySearch" class="choose-city-modal__input" placeholder="Введите название города">
+            </label>
+            <button type="submit" class="input__btn" aria-label="Найти" title="Найти"><span class="button__icon icon">
+                <svg fill="currentColor" stroke="none">
+                  <use href="/bashpechi/assets/images/icons.svg#search"></use>
+                </svg>
+              </span></button>
+          </form>
+          <p class="choose-city-modal__hint">Или выберите из списка</p>
+          <ul class="choose-city-modal__list" role="listbox" aria-label="Список городов" data-js-choose-city="">
+            <li class="choose-city-modal__item">
+              <button class="choose-city-modal__option button button--transparent" type="button" role="option" data-city-id="ufa" data-js-choose-city-option=""><span class="button__icon icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/bashpechi/assets/images/icons.svg#points"></use>
+                  </svg>
+                </span><span class="button__label">Уфа</span></button>
+            </li>
+            <li class="choose-city-modal__item">
+              <button class="choose-city-modal__option button button--transparent" type="button" role="option" data-city-id="tolbazy-aurgazinsky-rn" data-js-choose-city-option=""><span class="button__icon icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/bashpechi/assets/images/icons.svg#points"></use>
+                  </svg>
+                </span><span class="button__label">с. Толбазы, Аургазинский р-н</span></button>
+            </li>
+            <li class="choose-city-modal__item">
+              <button class="choose-city-modal__option button button--transparent" type="button" role="option" data-city-id="nikifarovo-alsheevsky-rn" data-js-choose-city-option=""><span class="button__icon icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/bashpechi/assets/images/icons.svg#points"></use>
+                  </svg>
+                </span><span class="button__label">с. Никифарово, Альшеевский р-н, РБ</span></button>
+            </li>
+            <li class="choose-city-modal__item">
+              <button class="choose-city-modal__option button button--transparent" type="button" role="option" data-city-id="iglino-iglinsky-rn" data-js-choose-city-option=""><span class="button__icon icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/bashpechi/assets/images/icons.svg#points"></use>
+                  </svg>
+                </span><span class="button__label">с. Иглино, Иглинский р-н</span></button>
+            </li>
+            <li class="choose-city-modal__item">
+              <button class="choose-city-modal__option button button--transparent" type="button" role="option" data-city-id="magnitogorsk-chelyabinskaya-obl" data-js-choose-city-option=""><span class="button__icon icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/bashpechi/assets/images/icons.svg#points"></use>
+                  </svg>
+                </span><span class="button__label">г. Магнитогорск, Челябинская обл</span></button>
+            </li>
+            <li class="choose-city-modal__item">
+              <button class="choose-city-modal__option button button--transparent" type="button" role="option" data-city-id="ufa2" data-js-choose-city-option=""><span class="button__icon icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/bashpechi/assets/images/icons.svg#points"></use>
+                  </svg>
+                </span><span class="button__label">Уфа 2</span></button>
+            </li>
+            <li class="choose-city-modal__item">
+              <button class="choose-city-modal__option button button--transparent" type="button" role="option" data-city-id="tolbazy-aurgazinsky-rn2" data-js-choose-city-option=""><span class="button__icon icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/bashpechi/assets/images/icons.svg#points"></use>
+                  </svg>
+                </span><span class="button__label">с. Толбазы, Аургазинский р-н 2</span></button>
+            </li>
+            <li class="choose-city-modal__item">
+              <button class="choose-city-modal__option button button--transparent" type="button" role="option" data-city-id="nikifarovo-alsheevsky-rn2" data-js-choose-city-option=""><span class="button__icon icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/bashpechi/assets/images/icons.svg#points"></use>
+                  </svg>
+                </span><span class="button__label">с. Никифарово, Альшеевский р-н, РБ 2</span></button>
+            </li>
+            <li class="choose-city-modal__item">
+              <button class="choose-city-modal__option button button--transparent" type="button" role="option" data-city-id="iglino-iglinsky-rn2" data-js-choose-city-option=""><span class="button__icon icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/bashpechi/assets/images/icons.svg#points"></use>
+                  </svg>
+                </span><span class="button__label">с. Иглино, Иглинский р-н 2</span></button>
+            </li>
+            <li class="choose-city-modal__item">
+              <button class="choose-city-modal__option button button--transparent" type="button" role="option" data-city-id="magnitogorsk-chelyabinskaya-obl2" data-js-choose-city-option=""><span class="button__icon icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/bashpechi/assets/images/icons.svg#points"></use>
+                  </svg>
+                </span><span class="button__label">г. Магнитогорск, Челябинская обл 2</span></button>
+            </li>
+            <li class="choose-city-modal__item">
+              <button class="choose-city-modal__option button button--transparent" type="button" role="option" data-city-id="tolbazy-aurgazinsky-rn3" data-js-choose-city-option=""><span class="button__icon icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/bashpechi/assets/images/icons.svg#points"></use>
+                  </svg>
+                </span><span class="button__label">с. Толбазы, Аургазинский р-н 2</span></button>
+            </li>
+            <li class="choose-city-modal__item">
+              <button class="choose-city-modal__option button button--transparent" type="button" role="option" data-city-id="nikifarovo-alsheevsky-rn3" data-js-choose-city-option=""><span class="button__icon icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/bashpechi/assets/images/icons.svg#points"></use>
+                  </svg>
+                </span><span class="button__label">с. Никифарово, Альшеевский р-н, РБ 2</span></button>
+            </li>
+            <li class="choose-city-modal__item">
+              <button class="choose-city-modal__option button button--transparent" type="button" role="option" data-city-id="iglino-iglinsky-rn3" data-js-choose-city-option=""><span class="button__icon icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/bashpechi/assets/images/icons.svg#points"></use>
+                  </svg>
+                </span><span class="button__label">с. Иглино, Иглинский р-н 2</span></button>
+            </li>
+            <li class="choose-city-modal__item">
+              <button class="choose-city-modal__option button button--transparent" type="button" role="option" data-city-id="magnitogorsk-chelyabinskaya-obl3" data-js-choose-city-option=""><span class="button__icon icon">
+                  <svg fill="none" stroke="currentColor">
+                    <use href="/bashpechi/assets/images/icons.svg#points"></use>
+                  </svg>
+                </span><span class="button__label">г. Магнитогорск, Челябинская обл 2</span></button>
+            </li>
+          </ul>
         </div>
       </div>
     </main>
