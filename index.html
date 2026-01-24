@@ -70,16 +70,18 @@
                     <use href="/bashpechi/assets/images/icons.svg#katalog"></use>
                   </svg>
                 </span><span class="button__label">Каталог</span></a>
-              <form id="navigationSearch" class="search navigation__search">
-                <label for="navigation-search">Поиск
-                  <input type="text" name="search" id="navigation-search" class="navigation__input" placeholder="Поиск">
-                </label>
-                <button type="submit" class="input__btn" aria-label="Найти" title="Найти"><span class="button__icon icon">
-                    <svg fill="currentColor" stroke="none">
-                      <use href="/bashpechi/assets/images/icons.svg#search"></use>
-                    </svg>
-                  </span></button>
-              </form>
+              <div class="navigation__search-wrapper" data-js-navigation-wrapper="">
+                <form id="navigationSearch" class="search navigation__search" data-js-navigation-search="">
+                  <label for="navigation-search">Поиск
+                    <input data-js-navigation-search-input="" type="text" name="search" id="navigation-search" class="navigation__input" placeholder="Поиск">
+                  </label>
+                  <button type="submit" class="input__btn" aria-label="Найти" title="Найти"><span class="button__icon icon">
+                      <svg fill="currentColor" stroke="none">
+                        <use href="/bashpechi/assets/images/icons.svg#search"></use>
+                      </svg>
+                    </span></button>
+                </form>
+              </div>
             </div>
             <div class="header__primary-buttons">
               <a class="favorite-button button button--transparent button--above" href="/bashpechi/favorite"><span class="button__icon icon">
