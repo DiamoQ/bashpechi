@@ -2,7 +2,7 @@ class LockScrollManager {
     constructor() {
         this.lockCounter = 0;
         this.className = 'is-lock';
-        this.element = document.documentElement;
+        this.element = document.getElementsByTagName('body')[0];
     }
 
     lock() {

@@ -39,7 +39,7 @@ const ReviewCard = (props) => {
             </div>
 
             { image &&  (
-                <a className="review-card__shot" href={image} target="_blank" rel="noopener"
+                <a className="review-card__shot" href='/bashpechi/assets/images/review-600x897.png' target="_blank" rel="noopener"
                    aria-label="Открыть скриншот отзыва">
                     <Image src={image} alt="Открыть фотографию отзыва" />
                 </a>

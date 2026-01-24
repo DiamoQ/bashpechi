@@ -15,7 +15,7 @@
   @include flex-center(true);
 
   @include hover {
-    color: var(--color-red);
+    color: var(--color-red-1);
     background-color: var(--color-red-1);
 
     .button__count {

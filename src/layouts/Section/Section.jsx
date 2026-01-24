@@ -18,7 +18,7 @@ const Section = (props) => {
   return (
       <section
           className={classNames(className, 'section container', {
-            'section--with-page-link': sectionLink,
+            'section--with-page-link': sectionLink?.length > 0,
           })}
           aria-labelledby={titleId}
       >
@@ -30,7 +30,8 @@ const Section = (props) => {
                   {title}
                 </h1>
             ) : (
-                <h2 className={`section__title ${!titleIsVisible && ' visible-hidden'}`} id={titleId}>
+                <h2 className={`section__title ${!titleIsVisible && ' visible-hidden'} ${!sectionLink && 'section__title--full'}`}
+                    id={titleId}>
                   {title}
                 </h2>
             )

@@ -24,7 +24,6 @@ class OverlayMenu {
 
         this.burgerButtonElement.classList.toggle(this.stateClasses.isActive);
         this.dialogElement.open = !this.dialogElement.open;
-        document.documentElement.classList.toggle(this.stateClasses.isLock);
 
         if (isOpening) {
             LockScrollManager.lock();

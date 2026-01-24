@@ -1,0 +1,56 @@
+.choose-city-modal {
+
+  .modal__dialog {
+    max-height: 75%;
+    height: fit-content;
+    overflow-y: auto;
+
+    @include mobile {
+      max-height: 100%;
+      max-width: 100%;
+      height: 100dvh;
+      width: 100vw;
+    }
+  }
+
+  ul {
+    display: grid;
+    gap: 16px;
+
+    li {
+      font-weight: 500;
+      line-height: 110%;
+
+      .button__label {
+        text-wrap: wrap;
+        text-align: start;
+      }
+    }
+  }
+
+  .modal__description,
+  &__hint {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 110%;
+    color: var(--color-black-80);
+  }
+
+  &__item {
+    .choose-city-modal__option {
+      padding: 0;
+
+      &.is-active {
+        color: var(--color-red-1);
+
+        svg {
+          stroke: var(--color-red-1);
+        }
+      }
+
+      svg {
+        stroke-width: 1.5;
+      }
+    }
+  }
+}

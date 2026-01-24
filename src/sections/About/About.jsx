@@ -8,7 +8,16 @@ const ab3 = '/src/assets/images/about/ab3.png';
 
 const About = (props) => {
     const {
-      title = 'Башпечи - это настоящие печи для вашей бани и сауны. Мы занимаемся производством банных печей уже более 20 лет и за это время прошли путь от первых моделей до продуманных решений, которые служат десятилетиями.',
+      title = (
+        <>
+          <span className="section__title-row section__title-row--shift">
+            Башпечи - это <span className="accent">настоящие печи</span> для вашей бани и сауны.
+          </span>
+          <span className="section__title-row section__title-row--center">
+            Мы занимаемся производством банных печей уже <span className="accent">более 20 лет</span> и за это время прошли путь от первых моделей до продуманных решений, которые служат десятилетиями.
+          </span>
+        </>
+      ),
       label = 'О компании',
     } = props
 

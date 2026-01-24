@@ -16,6 +16,7 @@
     @include flex-center;
     @include square(fluid-to-laptop(20, 20));
 
+    flex: 0 0 20px;
     margin: 0;
     background-color: var(--color-white);
     border: 1px solid var(--color-black-20);

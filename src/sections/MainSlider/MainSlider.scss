@@ -1,5 +1,6 @@
 .main-slider {
   height: 477px;
+  margin-bottom: fluid(70, 30);
 
   @include mobile-s {
     height: 524px;

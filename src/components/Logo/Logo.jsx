@@ -22,7 +22,7 @@ const Logo = (props) => {
             title={title}
             aria-label={title}
         >
-            <img
+            <Image
                 className="logo__image"
                 src={logoImgSrc}
                 alt='Логотип компании Башпечи'

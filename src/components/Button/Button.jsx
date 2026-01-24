@@ -19,6 +19,7 @@ const Button = (props) => {
     iconPosition = 'before',
     hasFillIcon,
     extraAttrs,
+    spanExtraAttrs,
   } = props
 
   const isLink = href !== undefined;
@@ -50,7 +51,7 @@ const Button = (props) => {
         {iconPosition === 'before' && iconComponent}
         {iconPosition === 'above' && iconComponent}
         {!isLabelHidden && (
-            <span className='button__label'>{label}</span>
+            <span className='button__label' {...spanExtraAttrs}>{label}</span>
         )}
         {iconPosition === 'after' && iconComponent}
       </Component>

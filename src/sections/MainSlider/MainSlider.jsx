@@ -22,7 +22,7 @@ const MainSlider = (props) => {
               sliderParams={{
                 slidesPerView: 1,
                 loop: true,
-                spaceBetween: 10,
+                spaceBetween: 0,
                 autoplay: {
                   delay: 6000,
                   disableOnInteraction: false,

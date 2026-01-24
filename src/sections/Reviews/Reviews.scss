@@ -29,4 +29,10 @@
       margin-right: 16px;
     }
   }
+
+  .slider__swiper {
+    @include mobile {
+      padding-right: 16px;
+    }
+  }
 }

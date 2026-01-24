@@ -1,1 +1,5 @@
-export default { base: 'https://github.com/DiamoQ/bashpechi.git'}
+import { defineConfig } from 'vite'
+
+export default defineConfig({
+    base: '/bashpechi/',
+})

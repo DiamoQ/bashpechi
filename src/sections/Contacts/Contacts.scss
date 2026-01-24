@@ -1,5 +1,6 @@
 .contacts {
   background-color: var(--color-gray-1);
+  margin-block: fluid(70, 30);
 
   &__inner {
     padding-block: fluid(100, 60);
@@ -128,9 +129,13 @@
 
       svg {
         color: #fff;
-        width: 18px;
-        height: 18px;
+        width: fluid(18, 16);
+        height: fluid(18, 16);
         stroke-width: 2px;
+
+        @include mobile {
+          stroke-width: 1.5px;
+        }
       }
     }
 

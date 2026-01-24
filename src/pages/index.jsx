@@ -8,6 +8,7 @@ import About from "@/sections/About";
 import MainSlider from "@/sections/MainSlider";
 import Why from "@/sections/Why";
 import ModalCallbackWindow from "@/components/ModalCallbackWindow";
+import ModalChooseCityWindow from "@/components/ModalChooseCityWindow";
 
 export const metadata = {
   title: ' Главная'
@@ -27,6 +28,7 @@ export default function () {
       <News />
       <Reviews />
       <ModalCallbackWindow />
+      <ModalChooseCityWindow />
     </>
   )
 }

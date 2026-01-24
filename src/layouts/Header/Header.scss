@@ -1,17 +1,57 @@
 .header {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  z-index: 50;
+  transition: var(--transition-duration-longer);
+  background: var(--color-white);
+
+  &.is-hidden {
+    opacity: 0;
+    z-index: -1;
+  }
+
+  &.is-sticky {
+    box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+  }
+
+  &.is-compact {
+    .header__inner {
+      row-gap: 0;
+      padding-block: 10px;
+    }
+
+    .header__inner-top {
+      max-height: 0;
+      opacity: 0;
+    }
+
+    .header__inner-bottom {
+      row-gap: 5px;
+    }
+
+    .header__overlay-menu-dialog {
+      padding-top: 24px;
+    }
+  }
+
   &__inner {
     display: flex;
     flex-direction: column;
     row-gap: 20px;
     padding-block: 20px;
+    transition: var(--transition-duration-longer);
 
     &-top {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      gap: fluid-to-laptop(86, 20);
+      gap: fluid-to-laptop(50, 20);
       font-size: 14px;
       font-weight: 500;
+      max-height: initial;
+      opacity: 1;
+      transition: 0.7s ease;
 
       @include tablet {
         display: none;
@@ -57,12 +97,41 @@
   }
 
   &__points {
-    gap: fluid-to-laptop(86, 20);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 2;
+    gap: 20px;
 
     &-info {
       gap: fluid-to-laptop(30, 15);
     }
 
+    [data-js-city-current] {
+      display: inline-block;
+      transition: opacity 0.18s ease, transform 0.18s ease;
+      will-change: opacity, transform;
+    }
+
+    [data-js-city-current].is-changing {
+      opacity: 0;
+      transform: translateY(2px);
+    }
+
+    &-label {
+      padding: 0 !important;
+      text-align: start;
+
+      @include hover {
+        color: var(--color-red-1);
+      }
+
+      span {
+        text-wrap: wrap;
+      }
+    }
+
+    &-label,
     &-cities,
     &-value {
       display: flex;
@@ -81,7 +150,9 @@
   }
 
   &__controls {
-    gap: fluid-to-laptop(137, 20);
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
     align-items: center;
   }
 
@@ -115,11 +186,13 @@
          margin-right: fluid(9, 0);
       }
 
-      .katalog-button,
-      .search {
+      .katalog-button {
         @include tablet {
           display: none;
         }
+      }
+
+      .navigation__search-wrapper {
       }
     }
 
@@ -253,6 +326,10 @@
           font-size: 16px;
         }
       }
+    }
+
+    .header__points-label {
+      margin-right: 70px;
     }
 
     &-actions {

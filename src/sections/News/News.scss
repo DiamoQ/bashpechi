@@ -35,8 +35,6 @@
       flex-wrap: nowrap;
       overflow-x: scroll;
       scrollbar-gutter: stable;
-      -webkit-overflow-scrolling: touch;
-      touch-action: pan-x;
       scrollbar-color: var(--color-red-1) transparent;
     }
   }

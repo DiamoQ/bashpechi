@@ -7,7 +7,16 @@ import Section from "@/layouts/Section";
 
 const Modifications = (props) => {
     const {
-        title = 'Варианты модификации печей и дополнительная комлектация Все модификации создаем на производстве. И даем гарантию 1 год.',
+        title = (
+            <>
+                <span className="section__title-row section__title-row--shift">
+                    Варианты <span className="accent">модификации</span> печей и <span className="accent">дополнительная комлектация</span>
+                </span>
+                <span className="section__title-row section__title-row--center">
+                    Все модификации создаем на производстве. И даем <span className="accent">гарантию 1 год.</span>
+                </span>
+            </>
+        ),
         label = 'Под ваш стиль',
     } = props
 

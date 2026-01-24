@@ -132,7 +132,7 @@
       flex-direction: column;
       align-items: start;
       justify-content: flex-start;
-      padding-top: 3px;
+      padding-top: fluid(3, 0);
     }
   }
 
@@ -144,7 +144,7 @@
     @include mobile-s {
       flex-direction: column;
       align-items: flex-start;
-      gap: 15px;
+      gap: 13px;
     }
 
     .icon {

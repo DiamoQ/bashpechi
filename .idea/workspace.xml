@@ -4,7 +4,48 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df2ce38e-25eb-4c71-98ba-cc44232c1d7a" name="Changes" comment="" />
+    <list default="true" id="df2ce38e-25eb-4c71-98ba-cc44232c1d7a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/THIRD_PARTY_LICENSES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MobileMenu/MobileMenu.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MobileMenu/MobileMenu.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MobileMenu/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/ChooseCity.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/HeaderFloating.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/NavigationSearchBg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/headerCityLabel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minista.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/minista.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Checkbox/Checkbox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Checkbox/Checkbox.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Logo/Logo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logo/Logo.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ReviewCard/ReviewCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ReviewCard/ReviewCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchString/SearchString.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchString/SearchString.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/SearchString/SearchString.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchString/SearchString.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/global.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Content/Content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Content/Content.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Footer/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Footer/Footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Header/Header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Section/Section.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Section/Section.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layouts/Section/Section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Section/Section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/OverlayMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/OverlayMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/About/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/About/About.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Contacts/Contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Contacts/Contacts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/MainSlider/MainSlider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/MainSlider/MainSlider.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/MainSlider/MainSlider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/MainSlider/MainSlider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Modifications/Modifications.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Modifications/Modifications.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Modifications/Modifications.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Modifications/Modifications.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/News/News.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/News/News.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Reviews/Reviews.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Reviews/Reviews.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sections/Why/Why.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Why/Why.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/lockScrollManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/lockScrollManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +60,21 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;DiamoQ&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/DiamoQ/bashpechi.git&quot;,
+    &quot;accountId&quot;: &quot;c2699d87-f1c0-4f6c-a788-6d29e907c9ee&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -30,8 +86,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/diamo/OneDrive/Desktop/БАШПЕЧИ/src/assets",
+    "last_opened_file_path": "C:/Users/diamo/OneDrive/Desktop/БАШПЕЧИ/src/components",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -43,10 +101,10 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\diamo\OneDrive\Desktop\БАШПЕЧИ\src\components" />
       <recent name="C:\Users\diamo\OneDrive\Desktop\БАШПЕЧИ\src\assets" />
       <recent name="C:\Users\diamo\OneDrive\Desktop\БАШПЕЧИ\src" />
       <recent name="C:\Users\diamo\OneDrive\Desktop\БАШПЕЧИ\src\modules" />
-      <recent name="C:\Users\diamo\OneDrive\Desktop\БАШПЕЧИ\src\components" />
       <recent name="C:\Users\diamo\OneDrive\Desktop\БАШПЕЧИ\src\utils" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -83,6 +141,9 @@
       <workItem from="1768939063223" duration="1493000" />
       <workItem from="1768979025226" duration="37164000" />
       <workItem from="1769018973371" duration="2539000" />
+      <workItem from="1769021556337" duration="4019000" />
+      <workItem from="1769101901565" duration="3659000" />
+      <workItem from="1769231561766" duration="40110000" />
     </task>
     <servers />
   </component>

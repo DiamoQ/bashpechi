@@ -6,8 +6,17 @@ import WhySlide from "@/components/WhySlide";
 
 const Why = (props) => {
     const {
-      title = 'Кратко почему наши мангалы - лучший выбор для удобного, безопасного и надёжного приготовления еды на природе с продуманной конструкцией.',
-      label = 'Почему мы',
+        title = (
+            <>
+                <span className="section__title-row section__title-row--shift">
+                  Кратко почему наши мангалы - <span className="accent">лучший выбор</span> для удобного,
+                </span>
+                <span className="section__title-row section__title-row--center">
+                    безопасного и надёжного приготовления еды на <span className="accent">природе</span> с продуманной конструкцией.
+                </span>
+            </>
+        ),
+        label = 'Почему мы',
     } = props
 
     return (

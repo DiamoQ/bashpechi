@@ -95,11 +95,25 @@ const Header = ( props ) => {
     return (
         <header className={classNames('header', {
             'is-fixed': isFixed,
-        })} data-js-overlay-menu=''>
+        })} data-js-overlay-menu=''
+            data-js-header=''
+        >
             <div className='header__inner container'>
                 <div className='header__inner-top'>
                     <div className="header__points">
-                        <div className="header__points-label">Большеустикинское</div>
+                        <Button
+                            className='button__icon header__points-label'
+                            iconName='city-arrow'
+                            mode='transparent'
+                            label='Большеустикинское'
+                            iconPosition='after'
+                            extraAttrs={{
+                                'data-js-modal-notify-button': 'choose-city-window',
+                            }}
+                            spanExtraAttrs={{
+                                'data-js-city-current': '',
+                            }}
+                        />
                         <div className="header__points-info">
                             <div className="header__points-cities">
                                 <Icon
@@ -160,7 +174,7 @@ const Header = ( props ) => {
                             <Button
                                 className='favorite-button'
                                 iconName='favorite'
-                                href={`${basePath}/favorite`}
+                                href='#'
                                 label='Избранное'
                                 mode='transparent'
                                 iconPosition='above'
@@ -168,7 +182,7 @@ const Header = ( props ) => {
                             <Button
                                 className='compare-button'
                                 iconName='compare'
-                                href={`${basePath}/compare`}
+                                href='#'
                                 label='Сравнить'
                                 mode='transparent'
                                 iconPosition='above'
@@ -176,7 +190,7 @@ const Header = ( props ) => {
                             <Button
                                 className='basket-button'
                                 iconName='basket'
-                                href={`${basePath}/basket`}
+                                href='#'
                                 label='Корзина'
                                 mode='transparent'
                                 iconPosition='above'
@@ -184,7 +198,7 @@ const Header = ( props ) => {
                             <Button
                                 className='login-button'
                                 iconName='login'
-                                href={`${basePath}/login`}
+                                href='#'
                                 label='Войти'
                                 mode='transparent'
                                 iconPosition='above'
@@ -236,7 +250,19 @@ const Header = ( props ) => {
                         className='header__overlay-menu-dialog'
                         data-js-overlay-menu-dialog=''
                     >
-                        <div className="header__points-label">Большеустикинское</div>
+                        <Button
+                            className='button__icon header__points-label'
+                            iconName='city-arrow'
+                            mode='transparent'
+                            label='Большеустикинское'
+                            iconPosition='after'
+                            extraAttrs={{
+                                'data-js-modal-notify-button': 'choose-city-window',
+                            }}
+                            spanExtraAttrs={{
+                                'data-js-city-current': '',
+                            }}
+                        />
                         <nav className='header__overlay-navigation'>
                             <ul className='header__menu-list header__menu-list--main'>
                                 {menuItems.bottomItems.map((item, index) => (
