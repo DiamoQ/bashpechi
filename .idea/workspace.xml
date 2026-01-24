@@ -4,48 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df2ce38e-25eb-4c71-98ba-cc44232c1d7a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/THIRD_PARTY_LICENSES.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MobileMenu/MobileMenu.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MobileMenu/MobileMenu.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/MobileMenu/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/ChooseCity.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/HeaderFloating.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/NavigationSearchBg.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/headerCityLabel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/minista.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/minista.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Checkbox/Checkbox.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Checkbox/Checkbox.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Logo/Logo.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Logo/Logo.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ReviewCard/ReviewCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ReviewCard/ReviewCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchString/SearchString.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchString/SearchString.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchString/SearchString.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchString/SearchString.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/global.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/global.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/Content/Content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Content/Content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/Footer/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Footer/Footer.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Header/Header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/Section/Section.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Section/Section.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layouts/Section/Section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/layouts/Section/Section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/OverlayMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/OverlayMenu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/About/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/About/About.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/Contacts/Contacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Contacts/Contacts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/MainSlider/MainSlider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/MainSlider/MainSlider.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/MainSlider/MainSlider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/MainSlider/MainSlider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/Modifications/Modifications.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Modifications/Modifications.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/Modifications/Modifications.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Modifications/Modifications.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/News/News.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/News/News.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/Reviews/Reviews.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Reviews/Reviews.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/Why/Why.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Why/Why.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/globals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/globals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/lockScrollManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/lockScrollManager.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
-    </list>
+    <list default="true" id="df2ce38e-25eb-4c71-98ba-cc44232c1d7a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,22 +42,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/diamo/OneDrive/Desktop/БАШПЕЧИ/src/components",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "D:\\WebStorm 2024.3.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/diamo/OneDrive/Desktop/БАШПЕЧИ/src/components&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\WebStorm 2024.3.5\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\diamo\OneDrive\Desktop\БАШПЕЧИ\src\components" />
