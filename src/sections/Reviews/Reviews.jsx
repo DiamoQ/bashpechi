@@ -21,15 +21,15 @@ const Reviews = (props) => {
         allowTouchMove: true,
         breakpoints: {
             0: {
-                slidesPerView: 'auto',
-                spaceBetween: 20,
+                slidesPerView: '1',
+                spaceBetween: 0,
                 allowTouchMove: true,
                 autoHeight: true,
                 enabled: true,
             },
             481: {
-                slidesPerView: 'auto',
-                spaceBetween: 20,
+                slidesPerView: '1',
+                spaceBetween: 0,
                 allowTouchMove: true,
                 autoHeight: true,
                 enabled: true,
@@ -60,7 +60,7 @@ const Reviews = (props) => {
 
     return (
         <Section
-            className='reviews slider-outside-arrows'
+            className='reviews slider-outside-arrows section--through'
             title={title}
             label={label}
             titleId='reviews-title'

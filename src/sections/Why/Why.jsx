@@ -21,7 +21,7 @@ const Why = (props) => {
 
     return (
         <Section
-            className='why'
+            className='why section--through'
             title={title}
             label={label}
             titleId='why-title'
@@ -34,7 +34,7 @@ const Why = (props) => {
               sliderParams={{
                 slidesPerView: 1,
                 loop: true,
-                spaceBetween: 10,
+                spaceBetween: 20,
                 autoplay: {
                   delay: 20000,
                   disableOnInteraction: false,

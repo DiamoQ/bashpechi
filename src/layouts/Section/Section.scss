@@ -2,6 +2,52 @@
   display: grid;
   row-gap: fluid(40, 20);
   padding-block: var(--section-padding-y);
+  overflow: visible;
+
+  &--through {
+    @include mobile {
+      padding-inline: 0;
+    }
+
+    .section__header {
+      @include mobile {
+        padding-inline: 16px;
+      }
+    }
+
+    .slider__list {
+      @include mobile {
+        padding-inline: 16px;
+      }
+
+      li:last-of-type {
+        padding-right: 32px;
+      }
+
+      & .slider__list {
+        @include mobile {
+          padding-inline: 0;
+        }
+
+        li:last-of-type {
+          padding-right: 0;
+        }
+      }
+    }
+
+    .slider__scrollbar {
+      @include mobile {
+        width: calc(100vw - 32px);
+      }
+    }
+
+    .slider__scrollbar,
+    .more-button {
+      @include mobile {
+        margin-inline: 16px;
+      }
+    }
+  }
 
   &--with-page-link {
 

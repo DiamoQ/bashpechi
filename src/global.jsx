@@ -1,10 +1,10 @@
+import '@/styles'
 import { Head } from "minista"
 import Header from "@/layouts/Header"
 import Content from "@/layouts/Content"
 import MobileMenu from "@/components/MobileMenu";
 import Footer from "@/layouts/Footer"
 
-import '@/styles'
 
 export default function (props) {
     const {

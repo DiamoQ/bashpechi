@@ -27,14 +27,14 @@ const Hits = (props) => {
       0: {
         slidesPerView: 1,
         slidesPerGroup: 1,
-        spaceBetween: 20,
+        spaceBetween: 0,
         allowTouchMove: true,
         enabled: true,
       },
       481: {
-        slidesPerView: 2,
+        slidesPerView: 1,
         slidesPerGroup: 1,
-        spaceBetween: 20,
+        spaceBetween: 0,
         allowTouchMove: true,
         enabled: true,
       },
@@ -64,7 +64,7 @@ const Hits = (props) => {
 
   return (
       <Section
-          className='hits slider-outside-arrows'
+          className='hits slider-outside-arrows section--through'
           title={title}
           label={label}
           titleId='hits-title'

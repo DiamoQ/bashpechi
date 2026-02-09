@@ -31,7 +31,7 @@ const Modifications = (props) => {
             0: {
                 slidesPerView: 1,
                 slidesPerGroup: 1,
-                spaceBetween: 20,
+                spaceBetween: 0,
                 allowTouchMove: true,
                 enabled: true,
             },
@@ -68,7 +68,7 @@ const Modifications = (props) => {
 
     return (
         <Section
-            className='modifications slider-outside-arrows'
+            className='modifications slider-outside-arrows section--through'
             title={title}
             label={label}
             titleId='modifications-title'

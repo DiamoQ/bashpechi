@@ -31,7 +31,7 @@ const WhySlide = (props) => {
                   sliderParams={{
                     slidesPerView: 1,
                     loop: true,
-                    spaceBetween: 10,
+                    spaceBetween: 0,
                     autoplay: {
                       delay: 4000,
                       disableOnInteraction: false,

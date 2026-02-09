@@ -9,6 +9,8 @@
   }
 
   .slider__list {
-    padding-block: 10px;
+    @include tablet-above {
+      padding-block: 10px;
+    }
   }
 }

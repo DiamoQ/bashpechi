@@ -2,6 +2,10 @@
   display: grid;
   row-gap: 20px;
 
+  @include mobile {
+    max-width: calc(100vw - 32px);
+  }
+
   &-media {
     position: relative;
     background: var(--color-gray-1);
