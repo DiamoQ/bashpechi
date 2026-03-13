@@ -212,6 +212,13 @@ const Header = ( props ) => {
                                     'data-search-button': 'search-window'
                                 }}
                             />
+                            <Button
+                                className='call-button visible-tablet'
+                                iconName='phone'
+                                isLabelHidden
+                                mode='white'
+                                href='tel:+73472662316'
+                            />
                             <BurgerButton
                                 className='header__burger-button visible-tablet'
                                 extraAttrs={{

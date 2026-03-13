@@ -26,6 +26,7 @@ const Modifications = (props) => {
         slidesPerView: 3,
         slidesPerGroup: 1,
         spaceBetween: 20,
+        autoHeight: true,
         allowTouchMove: true,
         breakpoints: {
             0: {
@@ -33,6 +34,7 @@ const Modifications = (props) => {
                 slidesPerGroup: 1,
                 spaceBetween: 0,
                 allowTouchMove: true,
+                autoHeight: true,
                 enabled: true,
             },
             620: {
@@ -40,6 +42,7 @@ const Modifications = (props) => {
                 slidesPerGroup: 1,
                 spaceBetween: 20,
                 allowTouchMove: true,
+                autoHeight: true,
                 enabled: true,
             },
             768: {
@@ -47,6 +50,7 @@ const Modifications = (props) => {
                 slidesPerGroup: 1,
                 spaceBetween: 20,
                 allowTouchMove: true,
+                autoHeight: true,
                 enabled: true,
             },
             991: {
@@ -54,6 +58,7 @@ const Modifications = (props) => {
                 slidesPerGroup: 1,
                 spaceBetween: 20,
                 allowTouchMove: true,
+                autoHeight: true,
                 enabled: true,
             },
             1260: {
@@ -61,6 +66,7 @@ const Modifications = (props) => {
                 slidesPerGroup: 1,
                 spaceBetween: 20,
                 allowTouchMove: true,
+                autoHeight: true,
                 enabled: true,
             }
         }

@@ -13,8 +13,16 @@
   transform: translateZ(0);
   will-change: transform;
 
+  @include mobile-xs {
+    gap: 5px;
+  }
+
   .button__label {
     font-size: 12px;
     line-height: 100%;
+
+    @include mobile-xs {
+      font-size: 11px;
+    }
   }
 }

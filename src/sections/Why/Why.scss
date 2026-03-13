@@ -2,5 +2,21 @@
   .slider__navigation {
     bottom: 0;
     left: 0;
+
+  }
+
+  .slider__pagination {
+    position: absolute;
+    right: fluid(52, 12);
+    bottom: fluid(52, 12);
+
+    @include mobile {
+      right: fluid(52, 30);
+      top: fluid(52, 15);
+    }
+  }
+
+  .slider__pagination .slider-navigation__pagination-bullet:only-child {
+    display: none;
   }
 }

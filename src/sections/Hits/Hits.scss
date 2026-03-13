@@ -12,5 +12,9 @@
     @include tablet-above {
       padding-block: 10px;
     }
+
+    @include mobile {
+      height: auto;
+    }
   }
 }

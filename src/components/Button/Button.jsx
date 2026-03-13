@@ -13,7 +13,6 @@ const Button = (props) => {
     id,
     isLabelHidden = false,
     type = 'button',
-
     iconName,
     // 'before' | 'after' | 'above'
     iconPosition = 'before',

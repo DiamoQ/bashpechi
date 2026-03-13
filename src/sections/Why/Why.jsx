@@ -31,6 +31,7 @@ const Why = (props) => {
               hasScrollbar={false}
               navigationPosition='abs-bottom'
               isNavigationHiddenMobile={true}
+              hasPagination={true}
               sliderParams={{
                 slidesPerView: 1,
                 loop: true,

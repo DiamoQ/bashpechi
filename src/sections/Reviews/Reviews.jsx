@@ -38,7 +38,7 @@ const Reviews = (props) => {
                 slidesPerView: 'auto',
                 spaceBetween: 20,
                 allowTouchMove: true,
-                autoHeight: false,
+                autoHeight: true,
                 enabled: true,
             },
             991: {

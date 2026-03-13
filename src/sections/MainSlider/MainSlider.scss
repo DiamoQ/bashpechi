@@ -57,6 +57,11 @@
     top: 12px;
     left: 12px;
     display: grid;
+    max-width: 35%;
+
+    @include mobile {
+      max-width: 80%;
+    }
   }
 
   &-label {

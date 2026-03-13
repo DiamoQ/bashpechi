@@ -2,7 +2,7 @@
   position: sticky;
   width: 100%;
   top: 0;
-  z-index: 50;
+  z-index: 110;
   transition: var(--transition-duration-longer);
   background: var(--color-white);
 
@@ -216,6 +216,13 @@
           stroke-width: 2;
         }
       }
+
+      .call-button {
+        svg {
+          fill: none;
+          stroke-width: 1.5;
+        }
+      }
     }
   }
 
@@ -294,6 +301,10 @@
         padding-top: 0;
         border-top: none;
       }
+
+      .header__points-label {
+        margin-right: 50px;
+      }
     }
 
     &-navigation {
@@ -327,10 +338,6 @@
           font-size: 16px;
         }
       }
-    }
-
-    .header__points-label {
-      margin-right: 70px;
     }
 
     &-actions {
