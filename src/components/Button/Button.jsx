@@ -7,7 +7,7 @@ const Button = (props) => {
     className,
     href,
     target,
-    // '' (default) | 'transparent' | 'red' | 'white'
+    // '' (default) | 'transparent' | 'red' | 'white' | 'ripple'
     mode = '',
     label,
     id,

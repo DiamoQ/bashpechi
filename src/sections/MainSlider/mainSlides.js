@@ -4,6 +4,8 @@ const basePath = import.meta.env.MODE === 'production'
 
 const mobileMainSlideBanner1 = `${basePath}/bg-mobile.png`;
 const desktopMainSlideBanner1 = `${basePath}/bg.png`;
+const mobileMainSlideBanner2 = `${basePath}/i.png`;
+const desktopMainSlideBanner2 = `${basePath}/i.png`;
 
 const mainSlides = [
     {
@@ -48,8 +50,8 @@ const mainSlides = [
             "воплощенная в чугуне",
         ],
         href: "#",
-        mobileBanner: mobileMainSlideBanner1,
-        desktopBanner: desktopMainSlideBanner1,
+        mobileBanner: mobileMainSlideBanner2,
+        desktopBanner: desktopMainSlideBanner2,
     },
 ]
 

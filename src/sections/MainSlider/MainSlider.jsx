@@ -2,6 +2,7 @@ import './MainSlider.scss'
 import classNames from 'classnames'
 import Slider from "@/components/Slider";
 import mainSlides from "@/sections/MainSlider/mainSlides";
+import Button from "@/components/Button";
 
 const MainSlider = (props) => {
     const {
@@ -68,7 +69,14 @@ const MainSlider = (props) => {
                           </span>
                       ))}
                     </div>
+                    <div
+                          className='main__slide-button button button--ripple'
+                          //mode='ripple'
+                    >
+                        Подробнее
+                    </div>
                   </div>
+
                 </a>
             ))}
           </Slider>

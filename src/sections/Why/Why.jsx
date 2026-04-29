@@ -27,14 +27,16 @@ const Why = (props) => {
             titleId='why-title'
         >
           <Slider
-              hasScrollbarOnMobile={false}
-              hasScrollbar={false}
+              //hasScrollbarOnMobile={false}
+              hasScrollbar={true}
               navigationPosition='abs-bottom'
               isNavigationHiddenMobile={true}
-              hasPagination={true}
+              //hasPagination={true}
               sliderParams={{
                 slidesPerView: 1,
-                loop: true,
+                //loop: true,
+                autoHeight: true,
+                allowTouchMove: true,
                 spaceBetween: 20,
                 autoplay: {
                   delay: 20000,
@@ -42,7 +44,7 @@ const Why = (props) => {
                 },
                 breakpoints: {
                   1024: {
-                    allowTouchMove: false,
+                    allowTouchMove: true,
                   }
                 }
               }}

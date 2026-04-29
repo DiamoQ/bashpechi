@@ -26,8 +26,8 @@
 
   &__photos {
     position: relative;
-    padding: fluid(40, 0);
-    height: fluid(591, 358);
+    padding: fluid(60, 0);
+    height: fluid(785, 358);
     background: var(--color-gray-1);
 
     @include mobile {

@@ -182,4 +182,23 @@
       fill: transparent;
     }
   }
+
+  &--ripple {
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    color: var(--color-white);
+    padding: 7px 20px;
+    width: fit-content;
+    border-radius: 8px;
+
+    &:disabled {
+      background-color: var(--color-gray-1) !important;
+    }
+
+    @include hover {
+      background-color: var(--color-red-1);
+      color: var(--color-white);
+    }
+  }
 }

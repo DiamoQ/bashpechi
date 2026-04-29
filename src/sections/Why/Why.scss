@@ -6,13 +6,17 @@
   }
 
   .slider__pagination {
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    height: fit-content;
     position: absolute;
-    right: fluid(52, 12);
-    bottom: fluid(52, 12);
+    right: fluid(72, 12);
+    bottom: fluid(72, 12);
 
     @include mobile {
-      right: fluid(52, 30);
-      top: fluid(52, 15);
+      right: fluid(62, 30);
+      top: fluid(62, 15);
+      max-width: 85%;
     }
   }
 
