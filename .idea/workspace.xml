@@ -6,14 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="df2ce38e-25eb-4c71-98ba-cc44232c1d7a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Button/Button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/WhySlide/WhySlide.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/WhySlide/WhySlide.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/MainSlider/MainSlider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/MainSlider/MainSlider.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/MainSlider/MainSlider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/MainSlider/MainSlider.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/MainSlider/mainSlides.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/MainSlider/mainSlides.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/Why/Why.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Why/Why.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sections/Why/Why.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Why/Why.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/minista.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/minista.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sections/Why/whySlides.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/sections/Why/whySlides.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +113,7 @@
       <workItem from="1773249084092" duration="3255000" />
       <workItem from="1773382598709" duration="15518000" />
       <workItem from="1773568671767" duration="1068000" />
-      <workItem from="1777447028278" duration="4662000" />
+      <workItem from="1777447028278" duration="8831000" />
     </task>
     <servers />
   </component>

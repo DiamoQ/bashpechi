@@ -4,7 +4,7 @@ import path from 'path'
 
 export default defineConfig({
   root: "",
-  base: "/local/templates/bashpechi/",
+  base: "",
   public: "public",
   out: "dist",
   assets: {
